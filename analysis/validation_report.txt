@@ -1,0 +1,26 @@
+PHARMACY ANALYTICS DATA VALIDATION: PASSED
+21/21 checks passed
+
+PASS  34,275 inventory fact snapshots
+PASS  75 store-product combinations each of 457 days
+PASS  Unique store-medicine-day keys
+PASS  Unique transaction IDs
+PASS  Unique purchase order IDs
+PASS  All foreign keys exist
+PASS  Daily stock equation
+PASS  No negative closing stock
+PASS  Stockout flag correct
+PASS  Below-reorder flag correct
+PASS  Dispensed units sum = 49,889
+PASS  Transactions never zero/negative
+PASS  All daily transaction quantities equal inventory dispensing
+PASS  Revenue reconciliation to cents
+PASS  Revenue = COGS + gross profit
+PASS  Demand requested = fulfilled + unfulfilled
+PASS  Demand daily aligned to inventory and no overfulfillment
+PASS  Every receipt reconciles to a received purchase order
+PASS  All pending purchase orders have zero receipts
+PASS  Stock movements join continuously by store and medicine
+PASS  No missing values in reporting facts
+
+NOTE: Data is synthetic; validation establishes internal consistency, not real-world provenance.

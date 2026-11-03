@@ -1,0 +1,6 @@
+SupplierID,SupplierName,CompletedOrders,OnTimeOrders,OnTimePct,AvgLeadDays,ReceivedOrderValueUSD
+SUP004,Supplier D,66,31,46.97,9.0,96950.0
+SUP003,Supplier C,78,37,47.44,6.35,92065.0
+SUP005,Supplier E,82,44,53.66,10.18,74863.0
+SUP001,Supplier A,88,49,55.68,7.02,96062.0
+SUP002,Supplier B,87,53,60.92,7.78,97086.0

@@ -1,0 +1,26 @@
+StoreName,ProductCategory,StockoutDays,BelowReorderDays,UnfulfilledUnits,EstimatedLostSalesUSD
+Northpoint Pharmacy,Routine Care,28,195,55,842.95
+Riverside Pharmacy,Wellness,28,164,56,1019.2
+Central Pharmacy,Routine Care,27,185,55,615.42
+Riverside Pharmacy,Seasonal,22,169,44,699.6
+Central Pharmacy,Wellness,14,185,29,572.17
+Southgate Pharmacy,Wellness,11,165,21,301.98
+Eastside Pharmacy,Wellness,9,181,19,374.87
+Central Pharmacy,Preventive Care,8,122,15,561.6
+Northpoint Pharmacy,Specialty,8,158,16,261.76
+Northpoint Pharmacy,Preventive Care,6,99,12,74.88
+Riverside Pharmacy,Preventive Care,6,120,12,74.88
+Southgate Pharmacy,Seasonal,6,114,12,171.0
+Eastside Pharmacy,Preventive Care,5,131,9,131.04
+Eastside Pharmacy,Specialty,3,140,6,69.0
+Southgate Pharmacy,Routine Care,3,155,6,67.92
+Central Pharmacy,Seasonal,2,122,3,42.75
+Riverside Pharmacy,Specialty,2,153,3,49.08
+Southgate Pharmacy,Specialty,2,156,5,38.05
+Central Pharmacy,Specialty,0,130,0,0.0
+Eastside Pharmacy,Routine Care,0,131,0,0.0
+Eastside Pharmacy,Seasonal,0,90,0,0.0
+Northpoint Pharmacy,Seasonal,0,94,0,0.0
+Northpoint Pharmacy,Wellness,0,176,0,0.0
+Riverside Pharmacy,Routine Care,0,151,0,0.0
+Southgate Pharmacy,Preventive Care,0,143,0,0.0

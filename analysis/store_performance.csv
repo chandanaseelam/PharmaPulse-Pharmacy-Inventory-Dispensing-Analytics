@@ -1,0 +1,6 @@
+StoreID,StoreName,RevenueUSD,GrossProfitUSD,DispensedUnits,StockoutDays,BelowReorderDays,StockoutRatePct,UnfulfilledUnits,FulfillmentRatePct
+STR004,Northpoint Pharmacy,135615.83,45107.63,10244,42,722,0.613,83,99.196
+STR002,Riverside Pharmacy,132438.45,43609.65,10004,58,757,0.846,115,98.864
+STR001,Central Pharmacy,131379.99,43552.49,9884,51,744,0.744,102,98.979
+STR005,Southgate Pharmacy,130947.19,43174.29,10005,22,733,0.321,44,99.562
+STR003,Eastside Pharmacy,130790.58,43049.28,9752,17,673,0.248,34,99.653

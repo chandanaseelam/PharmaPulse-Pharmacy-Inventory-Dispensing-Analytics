@@ -1,0 +1,16 @@
+DrugID,DrugName,ProductCategory,RevenueUSD,GrossProfitUSD,DispensedUnits,StockoutDays,BelowReorderDays,UnfulfilledUnits
+DR014,Medicine 14 (Synthetic),Preventive Care,81020.16,29084.16,2164,9,202,16
+DR012,Medicine 12 (Synthetic),Wellness,67693.63,20688.93,3431,50,419,103
+DR006,Medicine 06 (Synthetic),Routine Care,62873.85,17302.35,3705,20,328,39
+DR010,Medicine 10 (Synthetic),Specialty,55869.4,21377.9,3415,10,313,19
+DR013,Medicine 13 (Synthetic),Seasonal,55246.65,18415.55,3379,20,269,41
+DR008,Medicine 08 (Synthetic),Seasonal,47694.75,15898.25,3347,8,146,15
+DR002,Medicine 02 (Synthetic),Wellness,44259.84,13523.84,3616,8,227,15
+DR011,Medicine 11 (Synthetic),Routine Care,42212.28,11634.48,3729,37,307,75
+DR005,Medicine 05 (Synthetic),Specialty,39594.5,15149.2,3443,3,228,6
+DR004,Medicine 04 (Synthetic),Preventive Care,36901.8,13246.8,3154,4,184,8
+DR003,Medicine 03 (Synthetic),Seasonal,30507.75,10169.25,3129,2,174,3
+DR007,Medicine 07 (Synthetic),Wellness,26896.59,8223.39,3591,4,225,7
+DR015,Medicine 15 (Synthetic),Specialty,25143.44,9614.64,3304,2,196,5
+DR001,Medicine 01 (Synthetic),Routine Care,24952.44,6875.64,3228,1,182,2
+DR009,Medicine 09 (Synthetic),Preventive Care,20304.96,7288.96,3254,12,229,24

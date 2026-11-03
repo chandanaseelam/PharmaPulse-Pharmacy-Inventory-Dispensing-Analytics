@@ -1,0 +1,25 @@
+{
+  "source_inventory_records": 34275,
+  "inventory_dates": 457,
+  "date_range": [
+    "2025-06-01",
+    "2026-08-31"
+  ],
+  "dispensing_transactions": 27314,
+  "dispensed_units": 49889,
+  "inventory_receipts": 51480,
+  "purchase_orders": 411,
+  "received_orders": 401,
+  "pending_orders": 10,
+  "inventory_snapshots": 34275,
+  "stores": 5,
+  "medicines": 15,
+  "stockout_store_medicine_days": 190,
+  "below_reorder_store_medicine_days": 3629,
+  "requested_units": 50267,
+  "unfulfilled_units": 378,
+  "revenue_usd": "661172.04",
+  "gross_profit_usd": "218493.34",
+  "closing_inventory_value_usd": "61340.50",
+  "synthetic_note": "All augmented transactions, sales prices, demand requests, supplier delivery timing, and business names are SIMULATED; daily inventory movements are preserved from the previously generated input file."
+}
