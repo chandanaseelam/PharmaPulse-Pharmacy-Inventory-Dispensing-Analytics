@@ -1,0 +1,16 @@
+DrugID,DrugName,ProductCategory,UnitCostUSD,UnitPriceUSD,SupplierID,ReorderLeadTimeDays
+DR001,Medicine 01 (Synthetic),Routine Care,5.60,7.73,SUP001,6
+DR002,Medicine 02 (Synthetic),Wellness,8.50,12.24,SUP002,7
+DR003,Medicine 03 (Synthetic),Seasonal,6.50,9.75,SUP003,5
+DR004,Medicine 04 (Synthetic),Preventive Care,7.50,11.70,SUP004,8
+DR005,Medicine 05 (Synthetic),Specialty,7.10,11.50,SUP005,9
+DR006,Medicine 06 (Synthetic),Routine Care,12.30,16.97,SUP001,6
+DR007,Medicine 07 (Synthetic),Wellness,5.20,7.49,SUP002,7
+DR008,Medicine 08 (Synthetic),Seasonal,9.50,14.25,SUP003,5
+DR009,Medicine 09 (Synthetic),Preventive Care,4.00,6.24,SUP004,8
+DR010,Medicine 10 (Synthetic),Specialty,10.10,16.36,SUP005,9
+DR011,Medicine 11 (Synthetic),Routine Care,8.20,11.32,SUP001,6
+DR012,Medicine 12 (Synthetic),Wellness,13.70,19.73,SUP002,7
+DR013,Medicine 13 (Synthetic),Seasonal,10.90,16.35,SUP003,5
+DR014,Medicine 14 (Synthetic),Preventive Care,24.00,37.44,SUP004,8
+DR015,Medicine 15 (Synthetic),Specialty,4.70,7.61,SUP005,9

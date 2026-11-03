@@ -1,0 +1,412 @@
+PurchaseOrderID,StoreID,DrugID,SupplierID,OrderDate,ExpectedDeliveryDate,ActualDeliveryDate,OrderQuantity,ReceivedQuantity,OrderStatus,ActualLeadTimeDays,OnTimeFlag,OrderValueUSD,StoreName,DrugName,ProductCategory,SupplierName,TargetLeadTimeDays
+PO00001,STR002,DR003,SUP003,2025-06-01,2025-06-06,2025-06-06,120,120,Received,5,1,780.00,Riverside Pharmacy,Medicine 03 (Synthetic),Seasonal,Supplier C,5
+PO00002,STR002,DR004,SUP004,2025-06-01,2025-06-09,2025-06-07,150,150,Received,6,1,1125.00,Riverside Pharmacy,Medicine 04 (Synthetic),Preventive Care,Supplier D,8
+PO00003,STR002,DR007,SUP002,2025-05-31,2025-06-07,2025-06-07,180,180,Received,7,1,936.00,Riverside Pharmacy,Medicine 07 (Synthetic),Wellness,Supplier B,7
+PO00004,STR003,DR004,SUP004,2025-05-31,2025-06-08,2025-06-07,100,100,Received,7,1,750.00,Eastside Pharmacy,Medicine 04 (Synthetic),Preventive Care,Supplier D,8
+PO00005,STR003,DR008,SUP003,2025-05-28,2025-06-02,2025-06-07,150,150,Received,10,0,1425.00,Eastside Pharmacy,Medicine 08 (Synthetic),Seasonal,Supplier C,5
+PO00006,STR004,DR007,SUP002,2025-05-28,2025-06-04,2025-06-07,110,110,Received,10,0,572.00,Northpoint Pharmacy,Medicine 07 (Synthetic),Wellness,Supplier B,7
+PO00007,STR001,DR009,SUP004,2025-05-29,2025-06-06,2025-06-08,170,170,Received,10,0,680.00,Central Pharmacy,Medicine 09 (Synthetic),Preventive Care,Supplier D,8
+PO00008,STR002,DR002,SUP002,2025-06-02,2025-06-09,2025-06-08,120,120,Received,6,1,1020.00,Riverside Pharmacy,Medicine 02 (Synthetic),Wellness,Supplier B,7
+PO00009,STR004,DR003,SUP003,2025-05-31,2025-06-05,2025-06-08,180,180,Received,8,0,1170.00,Northpoint Pharmacy,Medicine 03 (Synthetic),Seasonal,Supplier C,5
+PO00010,STR004,DR009,SUP004,2025-05-28,2025-06-05,2025-06-08,170,170,Received,11,0,680.00,Northpoint Pharmacy,Medicine 09 (Synthetic),Preventive Care,Supplier D,8
+PO00011,STR005,DR008,SUP003,2025-06-03,2025-06-08,2025-06-08,200,200,Received,5,1,1900.00,Southgate Pharmacy,Medicine 08 (Synthetic),Seasonal,Supplier C,5
+PO00012,STR001,DR015,SUP005,2025-06-02,2025-06-11,2025-06-09,140,140,Received,7,1,658.00,Central Pharmacy,Medicine 15 (Synthetic),Specialty,Supplier E,9
+PO00013,STR002,DR013,SUP003,2025-06-01,2025-06-06,2025-06-09,90,90,Received,8,0,981.00,Riverside Pharmacy,Medicine 13 (Synthetic),Seasonal,Supplier C,5
+PO00014,STR001,DR002,SUP002,2025-06-04,2025-06-11,2025-06-10,150,150,Received,6,1,1275.00,Central Pharmacy,Medicine 02 (Synthetic),Wellness,Supplier B,7
+PO00015,STR002,DR010,SUP005,2025-06-01,2025-06-10,2025-06-10,90,90,Received,9,1,909.00,Riverside Pharmacy,Medicine 10 (Synthetic),Specialty,Supplier E,9
+PO00016,STR002,DR011,SUP001,2025-06-04,2025-06-10,2025-06-10,190,190,Received,6,1,1558.00,Riverside Pharmacy,Medicine 11 (Synthetic),Routine Care,Supplier A,6
+PO00017,STR004,DR011,SUP001,2025-06-03,2025-06-09,2025-06-10,90,90,Received,7,0,738.00,Northpoint Pharmacy,Medicine 11 (Synthetic),Routine Care,Supplier A,6
+PO00018,STR005,DR002,SUP002,2025-05-29,2025-06-05,2025-06-10,180,180,Received,12,0,1530.00,Southgate Pharmacy,Medicine 02 (Synthetic),Wellness,Supplier B,7
+PO00019,STR005,DR011,SUP001,2025-06-02,2025-06-08,2025-06-10,150,150,Received,8,0,1230.00,Southgate Pharmacy,Medicine 11 (Synthetic),Routine Care,Supplier A,6
+PO00020,STR001,DR012,SUP002,2025-06-03,2025-06-10,2025-06-11,90,90,Received,8,0,1233.00,Central Pharmacy,Medicine 12 (Synthetic),Wellness,Supplier B,7
+PO00021,STR001,DR014,SUP004,2025-06-03,2025-06-11,2025-06-11,150,150,Received,8,1,3600.00,Central Pharmacy,Medicine 14 (Synthetic),Preventive Care,Supplier D,8
+PO00022,STR003,DR010,SUP005,2025-06-04,2025-06-13,2025-06-13,180,180,Received,9,1,1818.00,Eastside Pharmacy,Medicine 10 (Synthetic),Specialty,Supplier E,9
+PO00023,STR001,DR013,SUP003,2025-06-10,2025-06-15,2025-06-15,90,90,Received,5,1,981.00,Central Pharmacy,Medicine 13 (Synthetic),Seasonal,Supplier C,5
+PO00024,STR001,DR003,SUP003,2025-06-11,2025-06-16,2025-06-18,140,140,Received,7,0,910.00,Central Pharmacy,Medicine 03 (Synthetic),Seasonal,Supplier C,5
+PO00025,STR003,DR003,SUP003,2025-06-08,2025-06-13,2025-06-18,120,120,Received,10,0,780.00,Eastside Pharmacy,Medicine 03 (Synthetic),Seasonal,Supplier C,5
+PO00026,STR005,DR006,SUP001,2025-06-09,2025-06-15,2025-06-18,150,150,Received,9,0,1845.00,Southgate Pharmacy,Medicine 06 (Synthetic),Routine Care,Supplier A,6
+PO00027,STR001,DR008,SUP003,2025-06-13,2025-06-18,2025-06-20,180,180,Received,7,0,1710.00,Central Pharmacy,Medicine 08 (Synthetic),Seasonal,Supplier C,5
+PO00028,STR003,DR009,SUP004,2025-06-15,2025-06-23,2025-06-21,180,180,Received,6,1,720.00,Eastside Pharmacy,Medicine 09 (Synthetic),Preventive Care,Supplier D,8
+PO00029,STR001,DR011,SUP001,2025-06-19,2025-06-25,2025-06-26,90,90,Received,7,0,738.00,Central Pharmacy,Medicine 11 (Synthetic),Routine Care,Supplier A,6
+PO00030,STR004,DR006,SUP001,2025-06-20,2025-06-26,2025-06-26,90,90,Received,6,1,1107.00,Northpoint Pharmacy,Medicine 06 (Synthetic),Routine Care,Supplier A,6
+PO00031,STR004,DR015,SUP005,2025-06-19,2025-06-28,2025-06-26,160,160,Received,7,1,752.00,Northpoint Pharmacy,Medicine 15 (Synthetic),Specialty,Supplier E,9
+PO00032,STR001,DR005,SUP005,2025-06-16,2025-06-25,2025-06-27,130,130,Received,11,0,923.00,Central Pharmacy,Medicine 05 (Synthetic),Specialty,Supplier E,9
+PO00033,STR003,DR002,SUP002,2025-06-21,2025-06-28,2025-06-27,180,180,Received,6,1,1530.00,Eastside Pharmacy,Medicine 02 (Synthetic),Wellness,Supplier B,7
+PO00034,STR004,DR001,SUP001,2025-06-18,2025-06-24,2025-06-27,120,120,Received,9,0,672.00,Northpoint Pharmacy,Medicine 01 (Synthetic),Routine Care,Supplier A,6
+PO00035,STR005,DR009,SUP004,2025-06-19,2025-06-27,2025-06-28,160,160,Received,9,0,640.00,Southgate Pharmacy,Medicine 09 (Synthetic),Preventive Care,Supplier D,8
+PO00036,STR005,DR003,SUP003,2025-06-24,2025-06-29,2025-06-29,140,140,Received,5,1,910.00,Southgate Pharmacy,Medicine 03 (Synthetic),Seasonal,Supplier C,5
+PO00037,STR003,DR006,SUP001,2025-06-25,2025-07-01,2025-07-01,140,140,Received,6,1,1722.00,Eastside Pharmacy,Medicine 06 (Synthetic),Routine Care,Supplier A,6
+PO00038,STR005,DR001,SUP001,2025-06-23,2025-06-29,2025-07-01,130,130,Received,8,0,728.00,Southgate Pharmacy,Medicine 01 (Synthetic),Routine Care,Supplier A,6
+PO00039,STR005,DR005,SUP005,2025-06-17,2025-06-26,2025-07-01,120,120,Received,14,0,852.00,Southgate Pharmacy,Medicine 05 (Synthetic),Specialty,Supplier E,9
+PO00040,STR002,DR012,SUP002,2025-06-26,2025-07-03,2025-07-03,90,90,Received,7,1,1233.00,Riverside Pharmacy,Medicine 12 (Synthetic),Wellness,Supplier B,7
+PO00041,STR005,DR013,SUP003,2025-07-01,2025-07-06,2025-07-06,120,120,Received,5,1,1308.00,Southgate Pharmacy,Medicine 13 (Synthetic),Seasonal,Supplier C,5
+PO00042,STR003,DR013,SUP003,2025-06-30,2025-07-05,2025-07-07,150,150,Received,7,0,1635.00,Eastside Pharmacy,Medicine 13 (Synthetic),Seasonal,Supplier C,5
+PO00043,STR002,DR001,SUP001,2025-07-04,2025-07-10,2025-07-10,120,120,Received,6,1,672.00,Riverside Pharmacy,Medicine 01 (Synthetic),Routine Care,Supplier A,6
+PO00044,STR004,DR005,SUP005,2025-06-30,2025-07-09,2025-07-10,160,160,Received,10,0,1136.00,Northpoint Pharmacy,Medicine 05 (Synthetic),Specialty,Supplier E,9
+PO00045,STR004,DR008,SUP003,2025-07-07,2025-07-12,2025-07-13,160,160,Received,6,0,1520.00,Northpoint Pharmacy,Medicine 08 (Synthetic),Seasonal,Supplier C,5
+PO00046,STR004,DR013,SUP003,2025-07-08,2025-07-13,2025-07-13,160,160,Received,5,1,1744.00,Northpoint Pharmacy,Medicine 13 (Synthetic),Seasonal,Supplier C,5
+PO00047,STR001,DR004,SUP004,2025-07-04,2025-07-12,2025-07-14,160,160,Received,10,0,1200.00,Central Pharmacy,Medicine 04 (Synthetic),Preventive Care,Supplier D,8
+PO00048,STR002,DR014,SUP004,2025-07-04,2025-07-12,2025-07-14,130,130,Received,10,0,3120.00,Riverside Pharmacy,Medicine 14 (Synthetic),Preventive Care,Supplier D,8
+PO00049,STR004,DR004,SUP004,2025-07-02,2025-07-10,2025-07-15,180,180,Received,13,0,1350.00,Northpoint Pharmacy,Medicine 04 (Synthetic),Preventive Care,Supplier D,8
+PO00050,STR004,DR014,SUP004,2025-07-06,2025-07-14,2025-07-15,180,180,Received,9,0,4320.00,Northpoint Pharmacy,Medicine 14 (Synthetic),Preventive Care,Supplier D,8
+PO00051,STR001,DR007,SUP002,2025-07-11,2025-07-18,2025-07-16,120,120,Received,5,1,624.00,Central Pharmacy,Medicine 07 (Synthetic),Wellness,Supplier B,7
+PO00052,STR002,DR005,SUP005,2025-07-10,2025-07-19,2025-07-18,130,130,Received,8,1,923.00,Riverside Pharmacy,Medicine 05 (Synthetic),Specialty,Supplier E,9
+PO00053,STR002,DR010,SUP005,2025-07-09,2025-07-18,2025-07-18,90,90,Received,9,1,909.00,Riverside Pharmacy,Medicine 10 (Synthetic),Specialty,Supplier E,9
+PO00054,STR003,DR007,SUP002,2025-07-14,2025-07-21,2025-07-19,120,120,Received,5,1,624.00,Eastside Pharmacy,Medicine 07 (Synthetic),Wellness,Supplier B,7
+PO00055,STR002,DR006,SUP001,2025-07-12,2025-07-18,2025-07-20,120,120,Received,8,0,1476.00,Riverside Pharmacy,Medicine 06 (Synthetic),Routine Care,Supplier A,6
+PO00056,STR001,DR010,SUP005,2025-07-17,2025-07-26,2025-07-26,200,200,Received,9,1,2020.00,Central Pharmacy,Medicine 10 (Synthetic),Specialty,Supplier E,9
+PO00057,STR003,DR001,SUP001,2025-07-23,2025-07-29,2025-07-29,160,160,Received,6,1,896.00,Eastside Pharmacy,Medicine 01 (Synthetic),Routine Care,Supplier A,6
+PO00058,STR005,DR007,SUP002,2025-07-22,2025-07-29,2025-07-29,120,120,Received,7,1,624.00,Southgate Pharmacy,Medicine 07 (Synthetic),Wellness,Supplier B,7
+PO00059,STR005,DR012,SUP002,2025-07-20,2025-07-27,2025-07-29,100,100,Received,9,0,1370.00,Southgate Pharmacy,Medicine 12 (Synthetic),Wellness,Supplier B,7
+PO00060,STR004,DR011,SUP001,2025-07-23,2025-07-29,2025-07-30,90,90,Received,7,0,738.00,Northpoint Pharmacy,Medicine 11 (Synthetic),Routine Care,Supplier A,6
+PO00061,STR004,DR012,SUP002,2025-07-23,2025-07-30,2025-08-02,180,180,Received,10,0,2466.00,Northpoint Pharmacy,Medicine 12 (Synthetic),Wellness,Supplier B,7
+PO00062,STR005,DR010,SUP005,2025-07-20,2025-07-29,2025-08-03,100,100,Received,14,0,1010.00,Southgate Pharmacy,Medicine 10 (Synthetic),Specialty,Supplier E,9
+PO00063,STR003,DR004,SUP004,2025-07-28,2025-08-05,2025-08-05,100,100,Received,8,1,750.00,Eastside Pharmacy,Medicine 04 (Synthetic),Preventive Care,Supplier D,8
+PO00064,STR005,DR004,SUP004,2025-07-30,2025-08-07,2025-08-05,130,130,Received,6,1,975.00,Southgate Pharmacy,Medicine 04 (Synthetic),Preventive Care,Supplier D,8
+PO00065,STR005,DR015,SUP005,2025-07-22,2025-07-31,2025-08-05,90,90,Received,14,0,423.00,Southgate Pharmacy,Medicine 15 (Synthetic),Specialty,Supplier E,9
+PO00066,STR002,DR013,SUP003,2025-08-01,2025-08-06,2025-08-08,90,90,Received,7,0,981.00,Riverside Pharmacy,Medicine 13 (Synthetic),Seasonal,Supplier C,5
+PO00067,STR003,DR015,SUP005,2025-08-02,2025-08-11,2025-08-09,90,90,Received,7,1,423.00,Eastside Pharmacy,Medicine 15 (Synthetic),Specialty,Supplier E,9
+PO00068,STR001,DR013,SUP003,2025-07-31,2025-08-05,2025-08-10,90,90,Received,10,0,981.00,Central Pharmacy,Medicine 13 (Synthetic),Seasonal,Supplier C,5
+PO00069,STR004,DR010,SUP005,2025-07-28,2025-08-06,2025-08-11,110,110,Received,14,0,1111.00,Northpoint Pharmacy,Medicine 10 (Synthetic),Specialty,Supplier E,9
+PO00070,STR002,DR003,SUP003,2025-08-03,2025-08-08,2025-08-13,120,120,Received,10,0,780.00,Riverside Pharmacy,Medicine 03 (Synthetic),Seasonal,Supplier C,5
+PO00071,STR004,DR007,SUP002,2025-08-07,2025-08-14,2025-08-14,110,110,Received,7,1,572.00,Northpoint Pharmacy,Medicine 07 (Synthetic),Wellness,Supplier B,7
+PO00072,STR003,DR011,SUP001,2025-08-04,2025-08-10,2025-08-15,130,130,Received,11,0,1066.00,Eastside Pharmacy,Medicine 11 (Synthetic),Routine Care,Supplier A,6
+PO00073,STR005,DR014,SUP004,2025-08-07,2025-08-15,2025-08-15,100,100,Received,8,1,2400.00,Southgate Pharmacy,Medicine 14 (Synthetic),Preventive Care,Supplier D,8
+PO00074,STR002,DR008,SUP003,2025-08-08,2025-08-13,2025-08-16,90,90,Received,8,0,855.00,Riverside Pharmacy,Medicine 08 (Synthetic),Seasonal,Supplier C,5
+PO00075,STR002,DR009,SUP004,2025-08-07,2025-08-15,2025-08-16,120,120,Received,9,0,480.00,Riverside Pharmacy,Medicine 09 (Synthetic),Preventive Care,Supplier D,8
+PO00076,STR003,DR005,SUP005,2025-08-07,2025-08-16,2025-08-16,110,110,Received,9,1,781.00,Eastside Pharmacy,Medicine 05 (Synthetic),Specialty,Supplier E,9
+PO00077,STR003,DR012,SUP002,2025-08-08,2025-08-15,2025-08-16,90,90,Received,8,0,1233.00,Eastside Pharmacy,Medicine 12 (Synthetic),Wellness,Supplier B,7
+PO00078,STR001,DR006,SUP001,2025-08-08,2025-08-14,2025-08-19,130,130,Received,11,0,1599.00,Central Pharmacy,Medicine 06 (Synthetic),Routine Care,Supplier A,6
+PO00079,STR004,DR002,SUP002,2025-08-13,2025-08-20,2025-08-20,140,140,Received,7,1,1190.00,Northpoint Pharmacy,Medicine 02 (Synthetic),Wellness,Supplier B,7
+PO00080,STR001,DR011,SUP001,2025-08-10,2025-08-16,2025-08-21,90,90,Received,11,0,738.00,Central Pharmacy,Medicine 11 (Synthetic),Routine Care,Supplier A,6
+PO00081,STR001,DR002,SUP002,2025-08-10,2025-08-17,2025-08-22,150,150,Received,12,0,1275.00,Central Pharmacy,Medicine 02 (Synthetic),Wellness,Supplier B,7
+PO00082,STR001,DR012,SUP002,2025-08-18,2025-08-25,2025-08-23,90,90,Received,5,1,1233.00,Central Pharmacy,Medicine 12 (Synthetic),Wellness,Supplier B,7
+PO00083,STR002,DR002,SUP002,2025-08-13,2025-08-20,2025-08-25,120,120,Received,12,0,1020.00,Riverside Pharmacy,Medicine 02 (Synthetic),Wellness,Supplier B,7
+PO00084,STR002,DR012,SUP002,2025-08-16,2025-08-23,2025-08-26,90,90,Received,10,0,1233.00,Riverside Pharmacy,Medicine 12 (Synthetic),Wellness,Supplier B,7
+PO00085,STR003,DR003,SUP003,2025-08-21,2025-08-26,2025-08-26,120,120,Received,5,1,780.00,Eastside Pharmacy,Medicine 03 (Synthetic),Seasonal,Supplier C,5
+PO00086,STR002,DR010,SUP005,2025-08-18,2025-08-27,2025-08-27,90,90,Received,9,1,909.00,Riverside Pharmacy,Medicine 10 (Synthetic),Specialty,Supplier E,9
+PO00087,STR004,DR006,SUP001,2025-08-22,2025-08-28,2025-08-28,90,90,Received,6,1,1107.00,Northpoint Pharmacy,Medicine 06 (Synthetic),Routine Care,Supplier A,6
+PO00088,STR003,DR014,SUP004,2025-08-19,2025-08-27,2025-08-29,90,90,Received,10,0,2160.00,Eastside Pharmacy,Medicine 14 (Synthetic),Preventive Care,Supplier D,8
+PO00089,STR002,DR015,SUP005,2025-08-17,2025-08-26,2025-08-31,120,120,Received,14,0,564.00,Riverside Pharmacy,Medicine 15 (Synthetic),Specialty,Supplier E,9
+PO00090,STR001,DR005,SUP005,2025-08-18,2025-08-27,2025-09-01,130,130,Received,14,0,923.00,Central Pharmacy,Medicine 05 (Synthetic),Specialty,Supplier E,9
+PO00091,STR001,DR015,SUP005,2025-08-26,2025-09-04,2025-09-05,140,140,Received,10,0,658.00,Central Pharmacy,Medicine 15 (Synthetic),Specialty,Supplier E,9
+PO00092,STR002,DR011,SUP001,2025-08-30,2025-09-05,2025-09-05,190,190,Received,6,1,1558.00,Riverside Pharmacy,Medicine 11 (Synthetic),Routine Care,Supplier A,6
+PO00093,STR005,DR008,SUP003,2025-09-01,2025-09-06,2025-09-06,200,200,Received,5,1,1900.00,Southgate Pharmacy,Medicine 08 (Synthetic),Seasonal,Supplier C,5
+PO00094,STR002,DR007,SUP002,2025-09-02,2025-09-09,2025-09-09,180,180,Received,7,1,936.00,Riverside Pharmacy,Medicine 07 (Synthetic),Wellness,Supplier B,7
+PO00095,STR005,DR011,SUP001,2025-09-06,2025-09-12,2025-09-12,150,150,Received,6,1,1230.00,Southgate Pharmacy,Medicine 11 (Synthetic),Routine Care,Supplier A,6
+PO00096,STR005,DR001,SUP001,2025-09-07,2025-09-13,2025-09-13,130,130,Received,6,1,728.00,Southgate Pharmacy,Medicine 01 (Synthetic),Routine Care,Supplier A,6
+PO00097,STR004,DR011,SUP001,2025-09-06,2025-09-12,2025-09-14,90,90,Received,8,0,738.00,Northpoint Pharmacy,Medicine 11 (Synthetic),Routine Care,Supplier A,6
+PO00098,STR001,DR007,SUP002,2025-09-08,2025-09-15,2025-09-15,120,120,Received,7,1,624.00,Central Pharmacy,Medicine 07 (Synthetic),Wellness,Supplier B,7
+PO00099,STR005,DR006,SUP001,2025-09-13,2025-09-19,2025-09-20,150,150,Received,7,0,1845.00,Southgate Pharmacy,Medicine 06 (Synthetic),Routine Care,Supplier A,6
+PO00100,STR001,DR008,SUP003,2025-09-16,2025-09-21,2025-09-21,180,180,Received,5,1,1710.00,Central Pharmacy,Medicine 08 (Synthetic),Seasonal,Supplier C,5
+PO00101,STR002,DR006,SUP001,2025-09-15,2025-09-21,2025-09-21,120,120,Received,6,1,1476.00,Riverside Pharmacy,Medicine 06 (Synthetic),Routine Care,Supplier A,6
+PO00102,STR003,DR006,SUP001,2025-09-15,2025-09-21,2025-09-23,140,140,Received,8,0,1722.00,Eastside Pharmacy,Medicine 06 (Synthetic),Routine Care,Supplier A,6
+PO00103,STR001,DR001,SUP001,2025-09-19,2025-09-25,2025-09-24,110,110,Received,5,1,616.00,Central Pharmacy,Medicine 01 (Synthetic),Routine Care,Supplier A,6
+PO00104,STR005,DR005,SUP005,2025-09-16,2025-09-25,2025-09-25,120,120,Received,9,1,852.00,Southgate Pharmacy,Medicine 05 (Synthetic),Specialty,Supplier E,9
+PO00105,STR004,DR015,SUP005,2025-09-20,2025-09-29,2025-09-29,160,160,Received,9,1,752.00,Northpoint Pharmacy,Medicine 15 (Synthetic),Specialty,Supplier E,9
+PO00106,STR004,DR009,SUP004,2025-09-21,2025-09-29,2025-09-30,170,170,Received,9,0,680.00,Northpoint Pharmacy,Medicine 09 (Synthetic),Preventive Care,Supplier D,8
+PO00107,STR005,DR013,SUP003,2025-09-26,2025-10-01,2025-09-30,120,120,Received,4,1,1308.00,Southgate Pharmacy,Medicine 13 (Synthetic),Seasonal,Supplier C,5
+PO00108,STR002,DR001,SUP001,2025-09-24,2025-09-30,2025-10-01,120,120,Received,7,0,672.00,Riverside Pharmacy,Medicine 01 (Synthetic),Routine Care,Supplier A,6
+PO00109,STR005,DR009,SUP004,2025-09-23,2025-10-01,2025-10-01,160,160,Received,8,1,640.00,Southgate Pharmacy,Medicine 09 (Synthetic),Preventive Care,Supplier D,8
+PO00110,STR001,DR013,SUP003,2025-09-26,2025-10-01,2025-10-04,90,90,Received,8,0,981.00,Central Pharmacy,Medicine 13 (Synthetic),Seasonal,Supplier C,5
+PO00111,STR003,DR007,SUP002,2025-09-27,2025-10-04,2025-10-04,120,120,Received,7,1,624.00,Eastside Pharmacy,Medicine 07 (Synthetic),Wellness,Supplier B,7
+PO00112,STR005,DR002,SUP002,2025-09-28,2025-10-05,2025-10-04,180,180,Received,6,1,1530.00,Southgate Pharmacy,Medicine 02 (Synthetic),Wellness,Supplier B,7
+PO00113,STR002,DR004,SUP004,2025-09-26,2025-10-04,2025-10-05,150,150,Received,9,0,1125.00,Riverside Pharmacy,Medicine 04 (Synthetic),Preventive Care,Supplier D,8
+PO00114,STR001,DR012,SUP002,2025-09-29,2025-10-06,2025-10-06,90,90,Received,7,1,1233.00,Central Pharmacy,Medicine 12 (Synthetic),Wellness,Supplier B,7
+PO00115,STR002,DR013,SUP003,2025-10-01,2025-10-06,2025-10-06,90,90,Received,5,1,981.00,Riverside Pharmacy,Medicine 13 (Synthetic),Seasonal,Supplier C,5
+PO00116,STR003,DR010,SUP005,2025-09-27,2025-10-06,2025-10-06,180,180,Received,9,1,1818.00,Eastside Pharmacy,Medicine 10 (Synthetic),Specialty,Supplier E,9
+PO00117,STR005,DR003,SUP003,2025-09-28,2025-10-03,2025-10-06,140,140,Received,8,0,910.00,Southgate Pharmacy,Medicine 03 (Synthetic),Seasonal,Supplier C,5
+PO00118,STR004,DR003,SUP003,2025-09-30,2025-10-05,2025-10-07,180,180,Received,7,0,1170.00,Northpoint Pharmacy,Medicine 03 (Synthetic),Seasonal,Supplier C,5
+PO00119,STR005,DR010,SUP005,2025-10-03,2025-10-12,2025-10-11,100,100,Received,8,1,1010.00,Southgate Pharmacy,Medicine 10 (Synthetic),Specialty,Supplier E,9
+PO00120,STR001,DR009,SUP004,2025-10-05,2025-10-13,2025-10-12,170,170,Received,7,1,680.00,Central Pharmacy,Medicine 09 (Synthetic),Preventive Care,Supplier D,8
+PO00121,STR003,DR008,SUP003,2025-10-09,2025-10-14,2025-10-13,150,150,Received,4,1,1425.00,Eastside Pharmacy,Medicine 08 (Synthetic),Seasonal,Supplier C,5
+PO00122,STR003,DR015,SUP005,2025-10-04,2025-10-13,2025-10-13,90,90,Received,9,1,423.00,Eastside Pharmacy,Medicine 15 (Synthetic),Specialty,Supplier E,9
+PO00123,STR002,DR005,SUP005,2025-10-05,2025-10-14,2025-10-14,130,130,Received,9,1,923.00,Riverside Pharmacy,Medicine 05 (Synthetic),Specialty,Supplier E,9
+PO00124,STR003,DR004,SUP004,2025-10-08,2025-10-16,2025-10-15,100,100,Received,7,1,750.00,Eastside Pharmacy,Medicine 04 (Synthetic),Preventive Care,Supplier D,8
+PO00125,STR003,DR013,SUP003,2025-10-12,2025-10-17,2025-10-15,150,150,Received,3,1,1635.00,Eastside Pharmacy,Medicine 13 (Synthetic),Seasonal,Supplier C,5
+PO00126,STR004,DR001,SUP001,2025-10-07,2025-10-13,2025-10-15,120,120,Received,8,0,672.00,Northpoint Pharmacy,Medicine 01 (Synthetic),Routine Care,Supplier A,6
+PO00127,STR003,DR005,SUP005,2025-10-05,2025-10-14,2025-10-19,110,110,Received,14,0,781.00,Eastside Pharmacy,Medicine 05 (Synthetic),Specialty,Supplier E,9
+PO00128,STR002,DR012,SUP002,2025-10-12,2025-10-19,2025-10-20,90,90,Received,8,0,1233.00,Riverside Pharmacy,Medicine 12 (Synthetic),Wellness,Supplier B,7
+PO00129,STR005,DR012,SUP002,2025-10-13,2025-10-20,2025-10-22,100,100,Received,9,0,1370.00,Southgate Pharmacy,Medicine 12 (Synthetic),Wellness,Supplier B,7
+PO00130,STR002,DR009,SUP004,2025-10-14,2025-10-22,2025-10-23,120,120,Received,9,0,480.00,Riverside Pharmacy,Medicine 09 (Synthetic),Preventive Care,Supplier D,8
+PO00131,STR004,DR013,SUP003,2025-10-18,2025-10-23,2025-10-23,160,160,Received,5,1,1744.00,Northpoint Pharmacy,Medicine 13 (Synthetic),Seasonal,Supplier C,5
+PO00132,STR004,DR002,SUP002,2025-10-19,2025-10-26,2025-10-24,140,140,Received,5,1,1190.00,Northpoint Pharmacy,Medicine 02 (Synthetic),Wellness,Supplier B,7
+PO00133,STR001,DR011,SUP001,2025-10-21,2025-10-27,2025-10-27,90,90,Received,6,1,738.00,Central Pharmacy,Medicine 11 (Synthetic),Routine Care,Supplier A,6
+PO00134,STR004,DR005,SUP005,2025-10-20,2025-10-29,2025-10-27,160,160,Received,7,1,1136.00,Northpoint Pharmacy,Medicine 05 (Synthetic),Specialty,Supplier E,9
+PO00135,STR005,DR015,SUP005,2025-10-15,2025-10-24,2025-10-29,90,90,Received,14,0,423.00,Southgate Pharmacy,Medicine 15 (Synthetic),Specialty,Supplier E,9
+PO00136,STR001,DR003,SUP003,2025-10-23,2025-10-28,2025-10-30,140,140,Received,7,0,910.00,Central Pharmacy,Medicine 03 (Synthetic),Seasonal,Supplier C,5
+PO00137,STR001,DR006,SUP001,2025-10-23,2025-10-29,2025-10-30,130,130,Received,7,0,1599.00,Central Pharmacy,Medicine 06 (Synthetic),Routine Care,Supplier A,6
+PO00138,STR003,DR002,SUP002,2025-10-18,2025-10-25,2025-10-30,180,180,Received,12,0,1530.00,Eastside Pharmacy,Medicine 02 (Synthetic),Wellness,Supplier B,7
+PO00139,STR002,DR002,SUP002,2025-10-24,2025-10-31,2025-10-31,120,120,Received,7,1,1020.00,Riverside Pharmacy,Medicine 02 (Synthetic),Wellness,Supplier B,7
+PO00140,STR004,DR004,SUP004,2025-10-23,2025-10-31,2025-10-31,180,180,Received,8,1,1350.00,Northpoint Pharmacy,Medicine 04 (Synthetic),Preventive Care,Supplier D,8
+PO00141,STR005,DR007,SUP002,2025-10-21,2025-10-28,2025-10-31,120,120,Received,10,0,624.00,Southgate Pharmacy,Medicine 07 (Synthetic),Wellness,Supplier B,7
+PO00142,STR001,DR014,SUP004,2025-10-20,2025-10-28,2025-11-02,150,150,Received,13,0,3600.00,Central Pharmacy,Medicine 14 (Synthetic),Preventive Care,Supplier D,8
+PO00143,STR004,DR006,SUP001,2025-10-24,2025-10-30,2025-11-02,90,90,Received,9,0,1107.00,Northpoint Pharmacy,Medicine 06 (Synthetic),Routine Care,Supplier A,6
+PO00144,STR004,DR007,SUP002,2025-10-26,2025-11-02,2025-11-02,110,110,Received,7,1,572.00,Northpoint Pharmacy,Medicine 07 (Synthetic),Wellness,Supplier B,7
+PO00145,STR004,DR010,SUP005,2025-10-25,2025-11-03,2025-11-02,110,110,Received,8,1,1111.00,Northpoint Pharmacy,Medicine 10 (Synthetic),Specialty,Supplier E,9
+PO00146,STR005,DR014,SUP004,2025-10-27,2025-11-04,2025-11-02,100,100,Received,6,1,2400.00,Southgate Pharmacy,Medicine 14 (Synthetic),Preventive Care,Supplier D,8
+PO00147,STR002,DR008,SUP003,2025-10-28,2025-11-02,2025-11-04,90,90,Received,7,0,855.00,Riverside Pharmacy,Medicine 08 (Synthetic),Seasonal,Supplier C,5
+PO00148,STR003,DR012,SUP002,2025-10-28,2025-11-04,2025-11-04,90,90,Received,7,1,1233.00,Eastside Pharmacy,Medicine 12 (Synthetic),Wellness,Supplier B,7
+PO00149,STR003,DR003,SUP003,2025-10-28,2025-11-02,2025-11-05,120,120,Received,8,0,780.00,Eastside Pharmacy,Medicine 03 (Synthetic),Seasonal,Supplier C,5
+PO00150,STR004,DR011,SUP001,2025-11-03,2025-11-09,2025-11-09,90,90,Received,6,1,738.00,Northpoint Pharmacy,Medicine 11 (Synthetic),Routine Care,Supplier A,6
+PO00151,STR002,DR003,SUP003,2025-11-05,2025-11-10,2025-11-10,120,120,Received,5,1,780.00,Riverside Pharmacy,Medicine 03 (Synthetic),Seasonal,Supplier C,5
+PO00152,STR002,DR010,SUP005,2025-10-29,2025-11-07,2025-11-12,90,90,Received,14,0,909.00,Riverside Pharmacy,Medicine 10 (Synthetic),Specialty,Supplier E,9
+PO00153,STR004,DR008,SUP003,2025-11-05,2025-11-10,2025-11-13,160,160,Received,8,0,1520.00,Northpoint Pharmacy,Medicine 08 (Synthetic),Seasonal,Supplier C,5
+PO00154,STR005,DR004,SUP004,2025-11-06,2025-11-14,2025-11-14,130,130,Received,8,1,975.00,Southgate Pharmacy,Medicine 04 (Synthetic),Preventive Care,Supplier D,8
+PO00155,STR005,DR001,SUP001,2025-11-12,2025-11-18,2025-11-18,130,130,Received,6,1,728.00,Southgate Pharmacy,Medicine 01 (Synthetic),Routine Care,Supplier A,6
+PO00156,STR003,DR011,SUP001,2025-11-10,2025-11-16,2025-11-19,130,130,Received,9,0,1066.00,Eastside Pharmacy,Medicine 11 (Synthetic),Routine Care,Supplier A,6
+PO00157,STR001,DR004,SUP004,2025-11-15,2025-11-23,2025-11-22,160,160,Received,7,1,1200.00,Central Pharmacy,Medicine 04 (Synthetic),Preventive Care,Supplier D,8
+PO00158,STR003,DR009,SUP004,2025-11-14,2025-11-22,2025-11-23,180,180,Received,9,0,720.00,Eastside Pharmacy,Medicine 09 (Synthetic),Preventive Care,Supplier D,8
+PO00159,STR001,DR001,SUP001,2025-11-19,2025-11-25,2025-11-25,110,110,Received,6,1,616.00,Central Pharmacy,Medicine 01 (Synthetic),Routine Care,Supplier A,6
+PO00160,STR003,DR006,SUP001,2025-11-14,2025-11-20,2025-11-25,140,140,Received,11,0,1722.00,Eastside Pharmacy,Medicine 06 (Synthetic),Routine Care,Supplier A,6
+PO00161,STR001,DR013,SUP003,2025-11-22,2025-11-27,2025-11-28,90,90,Received,6,0,981.00,Central Pharmacy,Medicine 13 (Synthetic),Seasonal,Supplier C,5
+PO00162,STR001,DR002,SUP002,2025-11-24,2025-12-01,2025-11-29,150,150,Received,5,1,1275.00,Central Pharmacy,Medicine 02 (Synthetic),Wellness,Supplier B,7
+PO00163,STR002,DR014,SUP004,2025-11-20,2025-11-28,2025-11-29,130,130,Received,9,0,3120.00,Riverside Pharmacy,Medicine 14 (Synthetic),Preventive Care,Supplier D,8
+PO00164,STR003,DR001,SUP001,2025-11-27,2025-12-03,2025-12-03,160,160,Received,6,1,896.00,Eastside Pharmacy,Medicine 01 (Synthetic),Routine Care,Supplier A,6
+PO00165,STR001,DR015,SUP005,2025-11-21,2025-11-30,2025-12-05,140,140,Received,14,0,658.00,Central Pharmacy,Medicine 15 (Synthetic),Specialty,Supplier E,9
+PO00166,STR002,DR006,SUP001,2025-11-24,2025-11-30,2025-12-05,120,120,Received,11,0,1476.00,Riverside Pharmacy,Medicine 06 (Synthetic),Routine Care,Supplier A,6
+PO00167,STR001,DR012,SUP002,2025-11-29,2025-12-06,2025-12-06,90,90,Received,7,1,1233.00,Central Pharmacy,Medicine 12 (Synthetic),Wellness,Supplier B,7
+PO00168,STR001,DR005,SUP005,2025-11-28,2025-12-07,2025-12-07,130,130,Received,9,1,923.00,Central Pharmacy,Medicine 05 (Synthetic),Specialty,Supplier E,9
+PO00169,STR002,DR013,SUP003,2025-11-27,2025-12-02,2025-12-07,90,90,Received,10,0,981.00,Riverside Pharmacy,Medicine 13 (Synthetic),Seasonal,Supplier C,5
+PO00170,STR003,DR015,SUP005,2025-11-28,2025-12-07,2025-12-08,90,90,Received,10,0,423.00,Eastside Pharmacy,Medicine 15 (Synthetic),Specialty,Supplier E,9
+PO00171,STR003,DR014,SUP004,2025-12-03,2025-12-11,2025-12-11,90,90,Received,8,1,2160.00,Eastside Pharmacy,Medicine 14 (Synthetic),Preventive Care,Supplier D,8
+PO00172,STR001,DR007,SUP002,2025-12-05,2025-12-12,2025-12-12,120,120,Received,7,1,624.00,Central Pharmacy,Medicine 07 (Synthetic),Wellness,Supplier B,7
+PO00173,STR003,DR012,SUP002,2025-12-06,2025-12-13,2025-12-14,90,90,Received,8,0,1233.00,Eastside Pharmacy,Medicine 12 (Synthetic),Wellness,Supplier B,7
+PO00174,STR004,DR012,SUP002,2025-12-09,2025-12-16,2025-12-14,180,180,Received,5,1,2466.00,Northpoint Pharmacy,Medicine 12 (Synthetic),Wellness,Supplier B,7
+PO00175,STR005,DR006,SUP001,2025-12-10,2025-12-16,2025-12-14,150,150,Received,4,1,1845.00,Southgate Pharmacy,Medicine 06 (Synthetic),Routine Care,Supplier A,6
+PO00176,STR005,DR011,SUP001,2025-12-08,2025-12-14,2025-12-14,150,150,Received,6,1,1230.00,Southgate Pharmacy,Medicine 11 (Synthetic),Routine Care,Supplier A,6
+PO00177,STR005,DR012,SUP002,2025-12-08,2025-12-15,2025-12-15,100,100,Received,7,1,1370.00,Southgate Pharmacy,Medicine 12 (Synthetic),Wellness,Supplier B,7
+PO00178,STR004,DR006,SUP001,2025-12-12,2025-12-18,2025-12-16,90,90,Received,4,1,1107.00,Northpoint Pharmacy,Medicine 06 (Synthetic),Routine Care,Supplier A,6
+PO00179,STR005,DR005,SUP005,2025-12-07,2025-12-16,2025-12-16,120,120,Received,9,1,852.00,Southgate Pharmacy,Medicine 05 (Synthetic),Specialty,Supplier E,9
+PO00180,STR001,DR010,SUP005,2025-12-06,2025-12-15,2025-12-17,200,200,Received,11,0,2020.00,Central Pharmacy,Medicine 10 (Synthetic),Specialty,Supplier E,9
+PO00181,STR002,DR011,SUP001,2025-12-11,2025-12-17,2025-12-18,190,190,Received,7,0,1558.00,Riverside Pharmacy,Medicine 11 (Synthetic),Routine Care,Supplier A,6
+PO00182,STR001,DR011,SUP001,2025-12-09,2025-12-15,2025-12-20,90,90,Received,11,0,738.00,Central Pharmacy,Medicine 11 (Synthetic),Routine Care,Supplier A,6
+PO00183,STR003,DR004,SUP004,2025-12-13,2025-12-21,2025-12-21,100,100,Received,8,1,750.00,Eastside Pharmacy,Medicine 04 (Synthetic),Preventive Care,Supplier D,8
+PO00184,STR001,DR006,SUP001,2025-12-16,2025-12-22,2025-12-22,130,130,Received,6,1,1599.00,Central Pharmacy,Medicine 06 (Synthetic),Routine Care,Supplier A,6
+PO00185,STR002,DR015,SUP005,2025-12-15,2025-12-24,2025-12-25,120,120,Received,10,0,564.00,Riverside Pharmacy,Medicine 15 (Synthetic),Specialty,Supplier E,9
+PO00186,STR005,DR013,SUP003,2025-12-16,2025-12-21,2025-12-26,120,120,Received,10,0,1308.00,Southgate Pharmacy,Medicine 13 (Synthetic),Seasonal,Supplier C,5
+PO00187,STR004,DR001,SUP001,2025-12-21,2025-12-27,2025-12-27,120,120,Received,6,1,672.00,Northpoint Pharmacy,Medicine 01 (Synthetic),Routine Care,Supplier A,6
+PO00188,STR005,DR010,SUP005,2025-12-13,2025-12-22,2025-12-27,100,100,Received,14,0,1010.00,Southgate Pharmacy,Medicine 10 (Synthetic),Specialty,Supplier E,9
+PO00189,STR002,DR001,SUP001,2025-12-22,2025-12-28,2025-12-29,120,120,Received,7,0,672.00,Riverside Pharmacy,Medicine 01 (Synthetic),Routine Care,Supplier A,6
+PO00190,STR005,DR015,SUP005,2025-12-20,2025-12-29,2025-12-29,90,90,Received,9,1,423.00,Southgate Pharmacy,Medicine 15 (Synthetic),Specialty,Supplier E,9
+PO00191,STR003,DR005,SUP005,2025-12-20,2025-12-29,2025-12-30,110,110,Received,10,0,781.00,Eastside Pharmacy,Medicine 05 (Synthetic),Specialty,Supplier E,9
+PO00192,STR004,DR010,SUP005,2025-12-22,2025-12-31,2025-12-31,110,110,Received,9,1,1111.00,Northpoint Pharmacy,Medicine 10 (Synthetic),Specialty,Supplier E,9
+PO00193,STR005,DR009,SUP004,2025-12-21,2025-12-29,2025-12-31,160,160,Received,10,0,640.00,Southgate Pharmacy,Medicine 09 (Synthetic),Preventive Care,Supplier D,8
+PO00194,STR004,DR015,SUP005,2025-12-28,2026-01-06,2026-01-04,160,160,Received,7,1,752.00,Northpoint Pharmacy,Medicine 15 (Synthetic),Specialty,Supplier E,9
+PO00195,STR004,DR011,SUP001,2026-01-04,2026-01-10,2026-01-10,90,90,Received,6,1,738.00,Northpoint Pharmacy,Medicine 11 (Synthetic),Routine Care,Supplier A,6
+PO00196,STR002,DR010,SUP005,2026-01-02,2026-01-11,2026-01-11,90,90,Received,9,1,909.00,Riverside Pharmacy,Medicine 10 (Synthetic),Specialty,Supplier E,9
+PO00197,STR002,DR008,SUP003,2026-01-04,2026-01-09,2026-01-12,90,90,Received,8,0,855.00,Riverside Pharmacy,Medicine 08 (Synthetic),Seasonal,Supplier C,5
+PO00198,STR004,DR007,SUP002,2026-01-06,2026-01-13,2026-01-13,110,110,Received,7,1,572.00,Northpoint Pharmacy,Medicine 07 (Synthetic),Wellness,Supplier B,7
+PO00199,STR003,DR007,SUP002,2026-01-09,2026-01-16,2026-01-15,120,120,Received,6,1,624.00,Eastside Pharmacy,Medicine 07 (Synthetic),Wellness,Supplier B,7
+PO00200,STR004,DR014,SUP004,2026-01-07,2026-01-15,2026-01-15,180,180,Received,8,1,4320.00,Northpoint Pharmacy,Medicine 14 (Synthetic),Preventive Care,Supplier D,8
+PO00201,STR005,DR002,SUP002,2026-01-07,2026-01-14,2026-01-15,180,180,Received,8,0,1530.00,Southgate Pharmacy,Medicine 02 (Synthetic),Wellness,Supplier B,7
+PO00202,STR002,DR012,SUP002,2026-01-09,2026-01-16,2026-01-17,90,90,Received,8,0,1233.00,Riverside Pharmacy,Medicine 12 (Synthetic),Wellness,Supplier B,7
+PO00203,STR003,DR006,SUP001,2026-01-12,2026-01-18,2026-01-17,140,140,Received,5,1,1722.00,Eastside Pharmacy,Medicine 06 (Synthetic),Routine Care,Supplier A,6
+PO00204,STR004,DR005,SUP005,2026-01-08,2026-01-17,2026-01-18,160,160,Received,10,0,1136.00,Northpoint Pharmacy,Medicine 05 (Synthetic),Specialty,Supplier E,9
+PO00205,STR004,DR002,SUP002,2026-01-09,2026-01-16,2026-01-19,140,140,Received,10,0,1190.00,Northpoint Pharmacy,Medicine 02 (Synthetic),Wellness,Supplier B,7
+PO00206,STR002,DR007,SUP002,2026-01-09,2026-01-16,2026-01-21,180,180,Received,12,0,936.00,Riverside Pharmacy,Medicine 07 (Synthetic),Wellness,Supplier B,7
+PO00207,STR004,DR006,SUP001,2026-01-17,2026-01-23,2026-01-23,90,90,Received,6,1,1107.00,Northpoint Pharmacy,Medicine 06 (Synthetic),Routine Care,Supplier A,6
+PO00208,STR003,DR008,SUP003,2026-01-18,2026-01-23,2026-01-24,150,150,Received,6,0,1425.00,Eastside Pharmacy,Medicine 08 (Synthetic),Seasonal,Supplier C,5
+PO00209,STR005,DR008,SUP003,2026-01-19,2026-01-24,2026-01-25,200,200,Received,6,0,1900.00,Southgate Pharmacy,Medicine 08 (Synthetic),Seasonal,Supplier C,5
+PO00210,STR002,DR002,SUP002,2026-01-19,2026-01-26,2026-01-26,120,120,Received,7,1,1020.00,Riverside Pharmacy,Medicine 02 (Synthetic),Wellness,Supplier B,7
+PO00211,STR002,DR006,SUP001,2026-01-17,2026-01-23,2026-01-26,120,120,Received,9,0,1476.00,Riverside Pharmacy,Medicine 06 (Synthetic),Routine Care,Supplier A,6
+PO00212,STR002,DR009,SUP004,2026-01-17,2026-01-25,2026-01-27,120,120,Received,10,0,480.00,Riverside Pharmacy,Medicine 09 (Synthetic),Preventive Care,Supplier D,8
+PO00213,STR003,DR012,SUP002,2026-01-15,2026-01-22,2026-01-27,90,90,Received,12,0,1233.00,Eastside Pharmacy,Medicine 12 (Synthetic),Wellness,Supplier B,7
+PO00214,STR001,DR009,SUP004,2026-01-15,2026-01-23,2026-01-28,170,170,Received,13,0,680.00,Central Pharmacy,Medicine 09 (Synthetic),Preventive Care,Supplier D,8
+PO00215,STR002,DR004,SUP004,2026-01-22,2026-01-30,2026-01-28,150,150,Received,6,1,1125.00,Riverside Pharmacy,Medicine 04 (Synthetic),Preventive Care,Supplier D,8
+PO00216,STR002,DR005,SUP005,2026-01-14,2026-01-23,2026-01-28,130,130,Received,14,0,923.00,Riverside Pharmacy,Medicine 05 (Synthetic),Specialty,Supplier E,9
+PO00217,STR003,DR011,SUP001,2026-01-17,2026-01-23,2026-01-28,130,130,Received,11,0,1066.00,Eastside Pharmacy,Medicine 11 (Synthetic),Routine Care,Supplier A,6
+PO00218,STR001,DR013,SUP003,2026-01-19,2026-01-24,2026-01-29,90,90,Received,10,0,981.00,Central Pharmacy,Medicine 13 (Synthetic),Seasonal,Supplier C,5
+PO00219,STR005,DR003,SUP003,2026-01-22,2026-01-27,2026-01-30,140,140,Received,8,0,910.00,Southgate Pharmacy,Medicine 03 (Synthetic),Seasonal,Supplier C,5
+PO00220,STR004,DR009,SUP004,2026-01-23,2026-01-31,2026-01-31,170,170,Received,8,1,680.00,Northpoint Pharmacy,Medicine 09 (Synthetic),Preventive Care,Supplier D,8
+PO00221,STR001,DR008,SUP003,2026-01-24,2026-01-29,2026-02-01,180,180,Received,8,0,1710.00,Central Pharmacy,Medicine 08 (Synthetic),Seasonal,Supplier C,5
+PO00222,STR002,DR003,SUP003,2026-01-28,2026-02-02,2026-02-03,120,120,Received,6,0,780.00,Riverside Pharmacy,Medicine 03 (Synthetic),Seasonal,Supplier C,5
+PO00223,STR005,DR007,SUP002,2026-01-25,2026-02-01,2026-02-03,120,120,Received,9,0,624.00,Southgate Pharmacy,Medicine 07 (Synthetic),Wellness,Supplier B,7
+PO00224,STR004,DR008,SUP003,2026-01-29,2026-02-03,2026-02-05,160,160,Received,7,0,1520.00,Northpoint Pharmacy,Medicine 08 (Synthetic),Seasonal,Supplier C,5
+PO00225,STR003,DR003,SUP003,2026-01-29,2026-02-03,2026-02-06,120,120,Received,8,0,780.00,Eastside Pharmacy,Medicine 03 (Synthetic),Seasonal,Supplier C,5
+PO00226,STR003,DR015,SUP005,2026-01-28,2026-02-06,2026-02-06,90,90,Received,9,1,423.00,Eastside Pharmacy,Medicine 15 (Synthetic),Specialty,Supplier E,9
+PO00227,STR001,DR012,SUP002,2026-02-02,2026-02-09,2026-02-09,90,90,Received,7,1,1233.00,Central Pharmacy,Medicine 12 (Synthetic),Wellness,Supplier B,7
+PO00228,STR005,DR001,SUP001,2026-02-03,2026-02-09,2026-02-09,130,130,Received,6,1,728.00,Southgate Pharmacy,Medicine 01 (Synthetic),Routine Care,Supplier A,6
+PO00229,STR003,DR013,SUP003,2026-02-05,2026-02-10,2026-02-10,150,150,Received,5,1,1635.00,Eastside Pharmacy,Medicine 13 (Synthetic),Seasonal,Supplier C,5
+PO00230,STR004,DR013,SUP003,2026-02-05,2026-02-10,2026-02-12,160,160,Received,7,0,1744.00,Northpoint Pharmacy,Medicine 13 (Synthetic),Seasonal,Supplier C,5
+PO00231,STR002,DR013,SUP003,2026-02-08,2026-02-13,2026-02-13,90,90,Received,5,1,981.00,Riverside Pharmacy,Medicine 13 (Synthetic),Seasonal,Supplier C,5
+PO00232,STR004,DR004,SUP004,2026-02-06,2026-02-14,2026-02-13,180,180,Received,7,1,1350.00,Northpoint Pharmacy,Medicine 04 (Synthetic),Preventive Care,Supplier D,8
+PO00233,STR001,DR001,SUP001,2026-02-09,2026-02-15,2026-02-14,110,110,Received,5,1,616.00,Central Pharmacy,Medicine 01 (Synthetic),Routine Care,Supplier A,6
+PO00234,STR005,DR004,SUP004,2026-02-06,2026-02-14,2026-02-14,130,130,Received,8,1,975.00,Southgate Pharmacy,Medicine 04 (Synthetic),Preventive Care,Supplier D,8
+PO00235,STR001,DR011,SUP001,2026-02-08,2026-02-14,2026-02-16,90,90,Received,8,0,738.00,Central Pharmacy,Medicine 11 (Synthetic),Routine Care,Supplier A,6
+PO00236,STR001,DR007,SUP002,2026-02-11,2026-02-18,2026-02-18,120,120,Received,7,1,624.00,Central Pharmacy,Medicine 07 (Synthetic),Wellness,Supplier B,7
+PO00237,STR003,DR014,SUP004,2026-02-08,2026-02-16,2026-02-19,90,90,Received,11,0,2160.00,Eastside Pharmacy,Medicine 14 (Synthetic),Preventive Care,Supplier D,8
+PO00238,STR001,DR015,SUP005,2026-02-12,2026-02-21,2026-02-26,140,140,Received,14,0,658.00,Central Pharmacy,Medicine 15 (Synthetic),Specialty,Supplier E,9
+PO00239,STR005,DR014,SUP004,2026-02-14,2026-02-22,2026-02-27,100,100,Received,13,0,2400.00,Southgate Pharmacy,Medicine 14 (Synthetic),Preventive Care,Supplier D,8
+PO00240,STR001,DR002,SUP002,2026-02-21,2026-02-28,2026-02-28,150,150,Received,7,1,1275.00,Central Pharmacy,Medicine 02 (Synthetic),Wellness,Supplier B,7
+PO00241,STR003,DR005,SUP005,2026-02-20,2026-03-01,2026-03-01,110,110,Received,9,1,781.00,Eastside Pharmacy,Medicine 05 (Synthetic),Specialty,Supplier E,9
+PO00242,STR004,DR010,SUP005,2026-02-20,2026-03-01,2026-03-01,110,110,Received,9,1,1111.00,Northpoint Pharmacy,Medicine 10 (Synthetic),Specialty,Supplier E,9
+PO00243,STR005,DR012,SUP002,2026-02-22,2026-03-01,2026-03-02,100,100,Received,8,0,1370.00,Southgate Pharmacy,Medicine 12 (Synthetic),Wellness,Supplier B,7
+PO00244,STR005,DR013,SUP003,2026-02-24,2026-03-01,2026-03-02,120,120,Received,6,0,1308.00,Southgate Pharmacy,Medicine 13 (Synthetic),Seasonal,Supplier C,5
+PO00245,STR003,DR002,SUP002,2026-02-26,2026-03-05,2026-03-03,180,180,Received,5,1,1530.00,Eastside Pharmacy,Medicine 02 (Synthetic),Wellness,Supplier B,7
+PO00246,STR001,DR005,SUP005,2026-02-24,2026-03-05,2026-03-04,130,130,Received,8,1,923.00,Central Pharmacy,Medicine 05 (Synthetic),Specialty,Supplier E,9
+PO00247,STR005,DR005,SUP005,2026-02-22,2026-03-03,2026-03-05,120,120,Received,11,0,852.00,Southgate Pharmacy,Medicine 05 (Synthetic),Specialty,Supplier E,9
+PO00248,STR003,DR010,SUP005,2026-02-21,2026-03-02,2026-03-07,180,180,Received,14,0,1818.00,Eastside Pharmacy,Medicine 10 (Synthetic),Specialty,Supplier E,9
+PO00249,STR005,DR011,SUP001,2026-03-01,2026-03-07,2026-03-07,150,150,Received,6,1,1230.00,Southgate Pharmacy,Medicine 11 (Synthetic),Routine Care,Supplier A,6
+PO00250,STR003,DR007,SUP002,2026-03-02,2026-03-09,2026-03-09,120,120,Received,7,1,624.00,Eastside Pharmacy,Medicine 07 (Synthetic),Wellness,Supplier B,7
+PO00251,STR005,DR015,SUP005,2026-02-28,2026-03-09,2026-03-09,90,90,Received,9,1,423.00,Southgate Pharmacy,Medicine 15 (Synthetic),Specialty,Supplier E,9
+PO00252,STR004,DR003,SUP003,2026-02-28,2026-03-05,2026-03-10,180,180,Received,10,0,1170.00,Northpoint Pharmacy,Medicine 03 (Synthetic),Seasonal,Supplier C,5
+PO00253,STR004,DR011,SUP001,2026-03-05,2026-03-11,2026-03-10,90,90,Received,5,1,738.00,Northpoint Pharmacy,Medicine 11 (Synthetic),Routine Care,Supplier A,6
+PO00254,STR002,DR001,SUP001,2026-03-05,2026-03-11,2026-03-11,120,120,Received,6,1,672.00,Riverside Pharmacy,Medicine 01 (Synthetic),Routine Care,Supplier A,6
+PO00255,STR002,DR011,SUP001,2026-03-06,2026-03-12,2026-03-11,190,190,Received,5,1,1558.00,Riverside Pharmacy,Medicine 11 (Synthetic),Routine Care,Supplier A,6
+PO00256,STR003,DR004,SUP004,2026-03-01,2026-03-09,2026-03-14,100,100,Received,13,0,750.00,Eastside Pharmacy,Medicine 04 (Synthetic),Preventive Care,Supplier D,8
+PO00257,STR004,DR001,SUP001,2026-03-07,2026-03-13,2026-03-15,120,120,Received,8,0,672.00,Northpoint Pharmacy,Medicine 01 (Synthetic),Routine Care,Supplier A,6
+PO00258,STR001,DR006,SUP001,2026-03-09,2026-03-15,2026-03-16,130,130,Received,7,0,1599.00,Central Pharmacy,Medicine 06 (Synthetic),Routine Care,Supplier A,6
+PO00259,STR002,DR015,SUP005,2026-03-08,2026-03-17,2026-03-16,120,120,Received,8,1,564.00,Riverside Pharmacy,Medicine 15 (Synthetic),Specialty,Supplier E,9
+PO00260,STR002,DR008,SUP003,2026-03-12,2026-03-17,2026-03-17,90,90,Received,5,1,855.00,Riverside Pharmacy,Medicine 08 (Synthetic),Seasonal,Supplier C,5
+PO00261,STR002,DR012,SUP002,2026-03-09,2026-03-16,2026-03-21,90,90,Received,12,0,1233.00,Riverside Pharmacy,Medicine 12 (Synthetic),Wellness,Supplier B,7
+PO00262,STR001,DR003,SUP003,2026-03-15,2026-03-20,2026-03-23,140,140,Received,8,0,910.00,Central Pharmacy,Medicine 03 (Synthetic),Seasonal,Supplier C,5
+PO00263,STR004,DR007,SUP002,2026-03-18,2026-03-25,2026-03-25,110,110,Received,7,1,572.00,Northpoint Pharmacy,Medicine 07 (Synthetic),Wellness,Supplier B,7
+PO00264,STR002,DR010,SUP005,2026-03-13,2026-03-22,2026-03-27,90,90,Received,14,0,909.00,Riverside Pharmacy,Medicine 10 (Synthetic),Specialty,Supplier E,9
+PO00265,STR003,DR001,SUP001,2026-03-23,2026-03-29,2026-03-29,160,160,Received,6,1,896.00,Eastside Pharmacy,Medicine 01 (Synthetic),Routine Care,Supplier A,6
+PO00266,STR005,DR007,SUP002,2026-03-23,2026-03-30,2026-03-29,120,120,Received,6,1,624.00,Southgate Pharmacy,Medicine 07 (Synthetic),Wellness,Supplier B,7
+PO00267,STR003,DR012,SUP002,2026-03-24,2026-03-31,2026-03-31,90,90,Received,7,1,1233.00,Eastside Pharmacy,Medicine 12 (Synthetic),Wellness,Supplier B,7
+PO00268,STR001,DR013,SUP003,2026-03-29,2026-04-03,2026-04-02,90,90,Received,4,1,981.00,Central Pharmacy,Medicine 13 (Synthetic),Seasonal,Supplier C,5
+PO00269,STR002,DR006,SUP001,2026-03-29,2026-04-04,2026-04-02,120,120,Received,4,1,1476.00,Riverside Pharmacy,Medicine 06 (Synthetic),Routine Care,Supplier A,6
+PO00270,STR004,DR006,SUP001,2026-03-30,2026-04-05,2026-04-05,90,90,Received,6,1,1107.00,Northpoint Pharmacy,Medicine 06 (Synthetic),Routine Care,Supplier A,6
+PO00271,STR001,DR011,SUP001,2026-03-31,2026-04-06,2026-04-06,90,90,Received,6,1,738.00,Central Pharmacy,Medicine 11 (Synthetic),Routine Care,Supplier A,6
+PO00272,STR001,DR010,SUP005,2026-03-26,2026-04-04,2026-04-07,200,200,Received,12,0,2020.00,Central Pharmacy,Medicine 10 (Synthetic),Specialty,Supplier E,9
+PO00273,STR001,DR014,SUP004,2026-03-28,2026-04-05,2026-04-08,150,150,Received,11,0,3600.00,Central Pharmacy,Medicine 14 (Synthetic),Preventive Care,Supplier D,8
+PO00274,STR005,DR010,SUP005,2026-03-29,2026-04-07,2026-04-08,100,100,Received,10,0,1010.00,Southgate Pharmacy,Medicine 10 (Synthetic),Specialty,Supplier E,9
+PO00275,STR005,DR009,SUP004,2026-03-27,2026-04-04,2026-04-09,160,160,Received,13,0,640.00,Southgate Pharmacy,Medicine 09 (Synthetic),Preventive Care,Supplier D,8
+PO00276,STR003,DR015,SUP005,2026-04-01,2026-04-10,2026-04-10,90,90,Received,9,1,423.00,Eastside Pharmacy,Medicine 15 (Synthetic),Specialty,Supplier E,9
+PO00277,STR002,DR009,SUP004,2026-04-03,2026-04-11,2026-04-11,120,120,Received,8,1,480.00,Riverside Pharmacy,Medicine 09 (Synthetic),Preventive Care,Supplier D,8
+PO00278,STR004,DR015,SUP005,2026-04-04,2026-04-13,2026-04-12,160,160,Received,8,1,752.00,Northpoint Pharmacy,Medicine 15 (Synthetic),Specialty,Supplier E,9
+PO00279,STR005,DR006,SUP001,2026-04-06,2026-04-12,2026-04-12,150,150,Received,6,1,1845.00,Southgate Pharmacy,Medicine 06 (Synthetic),Routine Care,Supplier A,6
+PO00280,STR004,DR002,SUP002,2026-04-07,2026-04-14,2026-04-13,140,140,Received,6,1,1190.00,Northpoint Pharmacy,Medicine 02 (Synthetic),Wellness,Supplier B,7
+PO00281,STR001,DR004,SUP004,2026-04-06,2026-04-14,2026-04-15,160,160,Received,9,0,1200.00,Central Pharmacy,Medicine 04 (Synthetic),Preventive Care,Supplier D,8
+PO00282,STR001,DR012,SUP002,2026-04-08,2026-04-15,2026-04-15,90,90,Received,7,1,1233.00,Central Pharmacy,Medicine 12 (Synthetic),Wellness,Supplier B,7
+PO00283,STR002,DR002,SUP002,2026-04-10,2026-04-17,2026-04-17,120,120,Received,7,1,1020.00,Riverside Pharmacy,Medicine 02 (Synthetic),Wellness,Supplier B,7
+PO00284,STR002,DR013,SUP003,2026-04-16,2026-04-21,2026-04-19,90,90,Received,3,1,981.00,Riverside Pharmacy,Medicine 13 (Synthetic),Seasonal,Supplier C,5
+PO00285,STR003,DR006,SUP001,2026-04-15,2026-04-21,2026-04-20,140,140,Received,5,1,1722.00,Eastside Pharmacy,Medicine 06 (Synthetic),Routine Care,Supplier A,6
+PO00286,STR004,DR012,SUP002,2026-04-15,2026-04-22,2026-04-20,180,180,Received,5,1,2466.00,Northpoint Pharmacy,Medicine 12 (Synthetic),Wellness,Supplier B,7
+PO00287,STR004,DR005,SUP005,2026-04-13,2026-04-22,2026-04-24,160,160,Received,11,0,1136.00,Northpoint Pharmacy,Medicine 05 (Synthetic),Specialty,Supplier E,9
+PO00288,STR002,DR005,SUP005,2026-04-16,2026-04-25,2026-04-25,130,130,Received,9,1,923.00,Riverside Pharmacy,Medicine 05 (Synthetic),Specialty,Supplier E,9
+PO00289,STR001,DR007,SUP002,2026-04-14,2026-04-21,2026-04-26,120,120,Received,12,0,624.00,Central Pharmacy,Medicine 07 (Synthetic),Wellness,Supplier B,7
+PO00290,STR005,DR015,SUP005,2026-04-18,2026-04-27,2026-04-27,90,90,Received,9,1,423.00,Southgate Pharmacy,Medicine 15 (Synthetic),Specialty,Supplier E,9
+PO00291,STR002,DR003,SUP003,2026-04-20,2026-04-25,2026-04-28,120,120,Received,8,0,780.00,Riverside Pharmacy,Medicine 03 (Synthetic),Seasonal,Supplier C,5
+PO00292,STR002,DR004,SUP004,2026-04-23,2026-05-01,2026-04-29,150,150,Received,6,1,1125.00,Riverside Pharmacy,Medicine 04 (Synthetic),Preventive Care,Supplier D,8
+PO00293,STR003,DR008,SUP003,2026-04-24,2026-04-29,2026-04-29,150,150,Received,5,1,1425.00,Eastside Pharmacy,Medicine 08 (Synthetic),Seasonal,Supplier C,5
+PO00294,STR003,DR011,SUP001,2026-04-24,2026-04-30,2026-04-30,130,130,Received,6,1,1066.00,Eastside Pharmacy,Medicine 11 (Synthetic),Routine Care,Supplier A,6
+PO00295,STR002,DR014,SUP004,2026-04-23,2026-05-01,2026-05-01,130,130,Received,8,1,3120.00,Riverside Pharmacy,Medicine 14 (Synthetic),Preventive Care,Supplier D,8
+PO00296,STR004,DR010,SUP005,2026-04-20,2026-04-29,2026-05-01,110,110,Received,11,0,1111.00,Northpoint Pharmacy,Medicine 10 (Synthetic),Specialty,Supplier E,9
+PO00297,STR005,DR008,SUP003,2026-04-29,2026-05-04,2026-05-02,200,200,Received,3,1,1900.00,Southgate Pharmacy,Medicine 08 (Synthetic),Seasonal,Supplier C,5
+PO00298,STR002,DR008,SUP003,2026-04-29,2026-05-04,2026-05-03,90,90,Received,4,1,855.00,Riverside Pharmacy,Medicine 08 (Synthetic),Seasonal,Supplier C,5
+PO00299,STR005,DR003,SUP003,2026-04-30,2026-05-05,2026-05-03,140,140,Received,3,1,910.00,Southgate Pharmacy,Medicine 03 (Synthetic),Seasonal,Supplier C,5
+PO00300,STR003,DR003,SUP003,2026-04-30,2026-05-05,2026-05-04,120,120,Received,4,1,780.00,Eastside Pharmacy,Medicine 03 (Synthetic),Seasonal,Supplier C,5
+PO00301,STR002,DR007,SUP002,2026-04-29,2026-05-06,2026-05-06,180,180,Received,7,1,936.00,Riverside Pharmacy,Medicine 07 (Synthetic),Wellness,Supplier B,7
+PO00302,STR003,DR009,SUP004,2026-04-24,2026-05-02,2026-05-07,180,180,Received,13,0,720.00,Eastside Pharmacy,Medicine 09 (Synthetic),Preventive Care,Supplier D,8
+PO00303,STR001,DR001,SUP001,2026-05-09,2026-05-15,2026-05-14,110,110,Received,5,1,616.00,Central Pharmacy,Medicine 01 (Synthetic),Routine Care,Supplier A,6
+PO00304,STR005,DR001,SUP001,2026-05-06,2026-05-12,2026-05-14,130,130,Received,8,0,728.00,Southgate Pharmacy,Medicine 01 (Synthetic),Routine Care,Supplier A,6
+PO00305,STR001,DR009,SUP004,2026-05-07,2026-05-15,2026-05-16,170,170,Received,9,0,680.00,Central Pharmacy,Medicine 09 (Synthetic),Preventive Care,Supplier D,8
+PO00306,STR004,DR011,SUP001,2026-05-07,2026-05-13,2026-05-18,90,90,Received,11,0,738.00,Northpoint Pharmacy,Medicine 11 (Synthetic),Routine Care,Supplier A,6
+PO00307,STR005,DR012,SUP002,2026-05-08,2026-05-15,2026-05-18,100,100,Received,10,0,1370.00,Southgate Pharmacy,Medicine 12 (Synthetic),Wellness,Supplier B,7
+PO00308,STR005,DR013,SUP003,2026-05-13,2026-05-18,2026-05-18,120,120,Received,5,1,1308.00,Southgate Pharmacy,Medicine 13 (Synthetic),Seasonal,Supplier C,5
+PO00309,STR001,DR013,SUP003,2026-05-15,2026-05-20,2026-05-20,90,90,Received,5,1,981.00,Central Pharmacy,Medicine 13 (Synthetic),Seasonal,Supplier C,5
+PO00310,STR003,DR014,SUP004,2026-05-13,2026-05-21,2026-05-22,90,90,Received,9,0,2160.00,Eastside Pharmacy,Medicine 14 (Synthetic),Preventive Care,Supplier D,8
+PO00311,STR004,DR014,SUP004,2026-05-15,2026-05-23,2026-05-23,180,180,Received,8,1,4320.00,Northpoint Pharmacy,Medicine 14 (Synthetic),Preventive Care,Supplier D,8
+PO00312,STR003,DR012,SUP002,2026-05-12,2026-05-19,2026-05-24,90,90,Received,12,0,1233.00,Eastside Pharmacy,Medicine 12 (Synthetic),Wellness,Supplier B,7
+PO00313,STR005,DR004,SUP004,2026-05-17,2026-05-25,2026-05-25,130,130,Received,8,1,975.00,Southgate Pharmacy,Medicine 04 (Synthetic),Preventive Care,Supplier D,8
+PO00314,STR001,DR008,SUP003,2026-05-24,2026-05-29,2026-05-28,180,180,Received,4,1,1710.00,Central Pharmacy,Medicine 08 (Synthetic),Seasonal,Supplier C,5
+PO00315,STR003,DR007,SUP002,2026-05-19,2026-05-26,2026-05-28,120,120,Received,9,0,624.00,Eastside Pharmacy,Medicine 07 (Synthetic),Wellness,Supplier B,7
+PO00316,STR004,DR004,SUP004,2026-05-20,2026-05-28,2026-05-28,180,180,Received,8,1,1350.00,Northpoint Pharmacy,Medicine 04 (Synthetic),Preventive Care,Supplier D,8
+PO00317,STR004,DR009,SUP004,2026-05-21,2026-05-29,2026-05-29,170,170,Received,8,1,680.00,Northpoint Pharmacy,Medicine 09 (Synthetic),Preventive Care,Supplier D,8
+PO00318,STR003,DR004,SUP004,2026-05-17,2026-05-25,2026-05-30,100,100,Received,13,0,750.00,Eastside Pharmacy,Medicine 04 (Synthetic),Preventive Care,Supplier D,8
+PO00319,STR005,DR011,SUP001,2026-05-20,2026-05-26,2026-05-31,150,150,Received,11,0,1230.00,Southgate Pharmacy,Medicine 11 (Synthetic),Routine Care,Supplier A,6
+PO00320,STR001,DR002,SUP002,2026-05-26,2026-06-02,2026-06-02,150,150,Received,7,1,1275.00,Central Pharmacy,Medicine 02 (Synthetic),Wellness,Supplier B,7
+PO00321,STR002,DR012,SUP002,2026-05-28,2026-06-04,2026-06-04,90,90,Received,7,1,1233.00,Riverside Pharmacy,Medicine 12 (Synthetic),Wellness,Supplier B,7
+PO00322,STR004,DR006,SUP001,2026-05-24,2026-05-30,2026-06-04,90,90,Received,11,0,1107.00,Northpoint Pharmacy,Medicine 06 (Synthetic),Routine Care,Supplier A,6
+PO00323,STR005,DR002,SUP002,2026-05-28,2026-06-04,2026-06-04,180,180,Received,7,1,1530.00,Southgate Pharmacy,Medicine 02 (Synthetic),Wellness,Supplier B,7
+PO00324,STR001,DR011,SUP001,2026-05-27,2026-06-02,2026-06-05,90,90,Received,9,0,738.00,Central Pharmacy,Medicine 11 (Synthetic),Routine Care,Supplier A,6
+PO00325,STR002,DR013,SUP003,2026-06-01,2026-06-06,2026-06-06,90,90,Received,5,1,981.00,Riverside Pharmacy,Medicine 13 (Synthetic),Seasonal,Supplier C,5
+PO00326,STR005,DR007,SUP002,2026-06-01,2026-06-08,2026-06-06,120,120,Received,5,1,624.00,Southgate Pharmacy,Medicine 07 (Synthetic),Wellness,Supplier B,7
+PO00327,STR001,DR015,SUP005,2026-05-27,2026-06-05,2026-06-08,140,140,Received,12,0,658.00,Central Pharmacy,Medicine 15 (Synthetic),Specialty,Supplier E,9
+PO00328,STR001,DR012,SUP002,2026-05-30,2026-06-06,2026-06-09,90,90,Received,10,0,1233.00,Central Pharmacy,Medicine 12 (Synthetic),Wellness,Supplier B,7
+PO00329,STR002,DR015,SUP005,2026-06-02,2026-06-11,2026-06-09,120,120,Received,7,1,564.00,Riverside Pharmacy,Medicine 15 (Synthetic),Specialty,Supplier E,9
+PO00330,STR005,DR005,SUP005,2026-05-31,2026-06-09,2026-06-09,120,120,Received,9,1,852.00,Southgate Pharmacy,Medicine 05 (Synthetic),Specialty,Supplier E,9
+PO00331,STR002,DR010,SUP005,2026-05-30,2026-06-08,2026-06-10,90,90,Received,11,0,909.00,Riverside Pharmacy,Medicine 10 (Synthetic),Specialty,Supplier E,9
+PO00332,STR004,DR001,SUP001,2026-06-04,2026-06-10,2026-06-10,120,120,Received,6,1,672.00,Northpoint Pharmacy,Medicine 01 (Synthetic),Routine Care,Supplier A,6
+PO00333,STR002,DR001,SUP001,2026-06-07,2026-06-13,2026-06-13,120,120,Received,6,1,672.00,Riverside Pharmacy,Medicine 01 (Synthetic),Routine Care,Supplier A,6
+PO00334,STR004,DR007,SUP002,2026-06-05,2026-06-12,2026-06-13,110,110,Received,8,0,572.00,Northpoint Pharmacy,Medicine 07 (Synthetic),Wellness,Supplier B,7
+PO00335,STR003,DR005,SUP005,2026-06-07,2026-06-16,2026-06-15,110,110,Received,8,1,781.00,Eastside Pharmacy,Medicine 05 (Synthetic),Specialty,Supplier E,9
+PO00336,STR003,DR015,SUP005,2026-06-05,2026-06-14,2026-06-16,90,90,Received,11,0,423.00,Eastside Pharmacy,Medicine 15 (Synthetic),Specialty,Supplier E,9
+PO00337,STR001,DR005,SUP005,2026-06-09,2026-06-18,2026-06-18,130,130,Received,9,1,923.00,Central Pharmacy,Medicine 05 (Synthetic),Specialty,Supplier E,9
+PO00338,STR002,DR011,SUP001,2026-06-15,2026-06-21,2026-06-21,190,190,Received,6,1,1558.00,Riverside Pharmacy,Medicine 11 (Synthetic),Routine Care,Supplier A,6
+PO00339,STR002,DR006,SUP001,2026-06-17,2026-06-23,2026-06-22,120,120,Received,5,1,1476.00,Riverside Pharmacy,Medicine 06 (Synthetic),Routine Care,Supplier A,6
+PO00340,STR003,DR002,SUP002,2026-06-15,2026-06-22,2026-06-22,180,180,Received,7,1,1530.00,Eastside Pharmacy,Medicine 02 (Synthetic),Wellness,Supplier B,7
+PO00341,STR004,DR008,SUP003,2026-06-18,2026-06-23,2026-06-22,160,160,Received,4,1,1520.00,Northpoint Pharmacy,Medicine 08 (Synthetic),Seasonal,Supplier C,5
+PO00342,STR005,DR015,SUP005,2026-06-12,2026-06-21,2026-06-23,90,90,Received,11,0,423.00,Southgate Pharmacy,Medicine 15 (Synthetic),Specialty,Supplier E,9
+PO00343,STR002,DR003,SUP003,2026-06-19,2026-06-24,2026-06-24,120,120,Received,5,1,780.00,Riverside Pharmacy,Medicine 03 (Synthetic),Seasonal,Supplier C,5
+PO00344,STR001,DR006,SUP001,2026-06-16,2026-06-22,2026-06-25,130,130,Received,9,0,1599.00,Central Pharmacy,Medicine 06 (Synthetic),Routine Care,Supplier A,6
+PO00345,STR003,DR013,SUP003,2026-06-18,2026-06-23,2026-06-26,150,150,Received,8,0,1635.00,Eastside Pharmacy,Medicine 13 (Synthetic),Seasonal,Supplier C,5
+PO00346,STR004,DR010,SUP005,2026-06-19,2026-06-28,2026-06-26,110,110,Received,7,1,1111.00,Northpoint Pharmacy,Medicine 10 (Synthetic),Specialty,Supplier E,9
+PO00347,STR004,DR002,SUP002,2026-06-19,2026-06-26,2026-06-29,140,140,Received,10,0,1190.00,Northpoint Pharmacy,Medicine 02 (Synthetic),Wellness,Supplier B,7
+PO00348,STR005,DR010,SUP005,2026-06-19,2026-06-28,2026-06-29,100,100,Received,10,0,1010.00,Southgate Pharmacy,Medicine 10 (Synthetic),Specialty,Supplier E,9
+PO00349,STR005,DR012,SUP002,2026-06-24,2026-07-01,2026-06-29,100,100,Received,5,1,1370.00,Southgate Pharmacy,Medicine 12 (Synthetic),Wellness,Supplier B,7
+PO00350,STR003,DR012,SUP002,2026-06-24,2026-07-01,2026-06-30,90,90,Received,6,1,1233.00,Eastside Pharmacy,Medicine 12 (Synthetic),Wellness,Supplier B,7
+PO00351,STR004,DR011,SUP001,2026-06-26,2026-07-02,2026-06-30,90,90,Received,4,1,738.00,Northpoint Pharmacy,Medicine 11 (Synthetic),Routine Care,Supplier A,6
+PO00352,STR005,DR014,SUP004,2026-06-23,2026-07-01,2026-07-01,100,100,Received,8,1,2400.00,Southgate Pharmacy,Medicine 14 (Synthetic),Preventive Care,Supplier D,8
+PO00353,STR004,DR013,SUP003,2026-06-29,2026-07-04,2026-07-04,160,160,Received,5,1,1744.00,Northpoint Pharmacy,Medicine 13 (Synthetic),Seasonal,Supplier C,5
+PO00354,STR003,DR006,SUP001,2026-06-29,2026-07-05,2026-07-05,140,140,Received,6,1,1722.00,Eastside Pharmacy,Medicine 06 (Synthetic),Routine Care,Supplier A,6
+PO00355,STR002,DR002,SUP002,2026-06-29,2026-07-06,2026-07-06,120,120,Received,7,1,1020.00,Riverside Pharmacy,Medicine 02 (Synthetic),Wellness,Supplier B,7
+PO00356,STR002,DR008,SUP003,2026-07-03,2026-07-08,2026-07-08,90,90,Received,5,1,855.00,Riverside Pharmacy,Medicine 08 (Synthetic),Seasonal,Supplier C,5
+PO00357,STR002,DR009,SUP004,2026-07-04,2026-07-12,2026-07-12,120,120,Received,8,1,480.00,Riverside Pharmacy,Medicine 09 (Synthetic),Preventive Care,Supplier D,8
+PO00358,STR005,DR006,SUP001,2026-07-09,2026-07-15,2026-07-14,150,150,Received,5,1,1845.00,Southgate Pharmacy,Medicine 06 (Synthetic),Routine Care,Supplier A,6
+PO00359,STR003,DR003,SUP003,2026-07-05,2026-07-10,2026-07-15,120,120,Received,10,0,780.00,Eastside Pharmacy,Medicine 03 (Synthetic),Seasonal,Supplier C,5
+PO00360,STR001,DR013,SUP003,2026-07-11,2026-07-16,2026-07-16,90,90,Received,5,1,981.00,Central Pharmacy,Medicine 13 (Synthetic),Seasonal,Supplier C,5
+PO00361,STR001,DR003,SUP003,2026-07-10,2026-07-15,2026-07-20,140,140,Received,10,0,910.00,Central Pharmacy,Medicine 03 (Synthetic),Seasonal,Supplier C,5
+PO00362,STR003,DR011,SUP001,2026-07-15,2026-07-21,2026-07-21,130,130,Received,6,1,1066.00,Eastside Pharmacy,Medicine 11 (Synthetic),Routine Care,Supplier A,6
+PO00363,STR004,DR015,SUP005,2026-07-12,2026-07-21,2026-07-21,160,160,Received,9,1,752.00,Northpoint Pharmacy,Medicine 15 (Synthetic),Specialty,Supplier E,9
+PO00364,STR005,DR001,SUP001,2026-07-16,2026-07-22,2026-07-21,130,130,Received,5,1,728.00,Southgate Pharmacy,Medicine 01 (Synthetic),Routine Care,Supplier A,6
+PO00365,STR001,DR007,SUP002,2026-07-16,2026-07-23,2026-07-22,120,120,Received,6,1,624.00,Central Pharmacy,Medicine 07 (Synthetic),Wellness,Supplier B,7
+PO00366,STR005,DR013,SUP003,2026-07-14,2026-07-19,2026-07-24,120,120,Received,10,0,1308.00,Southgate Pharmacy,Medicine 13 (Synthetic),Seasonal,Supplier C,5
+PO00367,STR001,DR001,SUP001,2026-07-20,2026-07-26,2026-07-27,110,110,Received,7,0,616.00,Central Pharmacy,Medicine 01 (Synthetic),Routine Care,Supplier A,6
+PO00368,STR003,DR001,SUP001,2026-07-21,2026-07-27,2026-07-28,160,160,Received,7,0,896.00,Eastside Pharmacy,Medicine 01 (Synthetic),Routine Care,Supplier A,6
+PO00369,STR005,DR009,SUP004,2026-07-19,2026-07-27,2026-07-28,160,160,Received,9,0,640.00,Southgate Pharmacy,Medicine 09 (Synthetic),Preventive Care,Supplier D,8
+PO00370,STR003,DR005,SUP005,2026-07-15,2026-07-24,2026-07-29,110,110,Received,14,0,781.00,Eastside Pharmacy,Medicine 05 (Synthetic),Specialty,Supplier E,9
+PO00371,STR002,DR005,SUP005,2026-07-24,2026-08-02,2026-07-31,130,130,Received,7,1,923.00,Riverside Pharmacy,Medicine 05 (Synthetic),Specialty,Supplier E,9
+PO00372,STR003,DR010,SUP005,2026-07-19,2026-07-28,2026-07-31,180,180,Received,12,0,1818.00,Eastside Pharmacy,Medicine 10 (Synthetic),Specialty,Supplier E,9
+PO00373,STR004,DR003,SUP003,2026-07-25,2026-07-30,2026-07-31,180,180,Received,6,0,1170.00,Northpoint Pharmacy,Medicine 03 (Synthetic),Seasonal,Supplier C,5
+PO00374,STR002,DR010,SUP005,2026-07-25,2026-08-03,2026-08-02,90,90,Received,8,1,909.00,Riverside Pharmacy,Medicine 10 (Synthetic),Specialty,Supplier E,9
+PO00375,STR001,DR010,SUP005,2026-07-23,2026-08-01,2026-08-03,200,200,Received,11,0,2020.00,Central Pharmacy,Medicine 10 (Synthetic),Specialty,Supplier E,9
+PO00376,STR002,DR012,SUP002,2026-07-25,2026-08-01,2026-08-03,90,90,Received,9,0,1233.00,Riverside Pharmacy,Medicine 12 (Synthetic),Wellness,Supplier B,7
+PO00377,STR003,DR008,SUP003,2026-07-31,2026-08-05,2026-08-04,150,150,Received,4,1,1425.00,Eastside Pharmacy,Medicine 08 (Synthetic),Seasonal,Supplier C,5
+PO00378,STR002,DR013,SUP003,2026-08-01,2026-08-06,2026-08-06,90,90,Received,5,1,981.00,Riverside Pharmacy,Medicine 13 (Synthetic),Seasonal,Supplier C,5
+PO00379,STR003,DR007,SUP002,2026-07-29,2026-08-05,2026-08-06,120,120,Received,8,0,624.00,Eastside Pharmacy,Medicine 07 (Synthetic),Wellness,Supplier B,7
+PO00380,STR001,DR011,SUP001,2026-08-01,2026-08-07,2026-08-07,90,90,Received,6,1,738.00,Central Pharmacy,Medicine 11 (Synthetic),Routine Care,Supplier A,6
+PO00381,STR004,DR005,SUP005,2026-07-31,2026-08-09,2026-08-07,160,160,Received,7,1,1136.00,Northpoint Pharmacy,Medicine 05 (Synthetic),Specialty,Supplier E,9
+PO00382,STR001,DR012,SUP002,2026-07-30,2026-08-06,2026-08-08,90,90,Received,9,0,1233.00,Central Pharmacy,Medicine 12 (Synthetic),Wellness,Supplier B,7
+PO00383,STR002,DR004,SUP004,2026-07-31,2026-08-08,2026-08-08,150,150,Received,8,1,1125.00,Riverside Pharmacy,Medicine 04 (Synthetic),Preventive Care,Supplier D,8
+PO00384,STR001,DR009,SUP004,2026-08-01,2026-08-09,2026-08-10,170,170,Received,9,0,680.00,Central Pharmacy,Medicine 09 (Synthetic),Preventive Care,Supplier D,8
+PO00385,STR004,DR012,SUP002,2026-07-30,2026-08-06,2026-08-11,180,180,Received,12,0,2466.00,Northpoint Pharmacy,Medicine 12 (Synthetic),Wellness,Supplier B,7
+PO00386,STR001,DR004,SUP004,2026-08-03,2026-08-11,2026-08-13,160,160,Received,10,0,1200.00,Central Pharmacy,Medicine 04 (Synthetic),Preventive Care,Supplier D,8
+PO00387,STR001,DR002,SUP002,2026-08-07,2026-08-14,2026-08-14,150,150,Received,7,1,1275.00,Central Pharmacy,Medicine 02 (Synthetic),Wellness,Supplier B,7
+PO00388,STR002,DR007,SUP002,2026-08-05,2026-08-12,2026-08-14,180,180,Received,9,0,936.00,Riverside Pharmacy,Medicine 07 (Synthetic),Wellness,Supplier B,7
+PO00389,STR004,DR006,SUP001,2026-08-05,2026-08-11,2026-08-14,90,90,Received,9,0,1107.00,Northpoint Pharmacy,Medicine 06 (Synthetic),Routine Care,Supplier A,6
+PO00390,STR005,DR003,SUP003,2026-08-10,2026-08-15,2026-08-14,140,140,Received,4,1,910.00,Southgate Pharmacy,Medicine 03 (Synthetic),Seasonal,Supplier C,5
+PO00391,STR005,DR015,SUP005,2026-08-05,2026-08-14,2026-08-14,90,90,Received,9,1,423.00,Southgate Pharmacy,Medicine 15 (Synthetic),Specialty,Supplier E,9
+PO00392,STR005,DR007,SUP002,2026-08-09,2026-08-16,2026-08-16,120,120,Received,7,1,624.00,Southgate Pharmacy,Medicine 07 (Synthetic),Wellness,Supplier B,7
+PO00393,STR003,DR004,SUP004,2026-08-09,2026-08-17,2026-08-18,100,100,Received,9,0,750.00,Eastside Pharmacy,Medicine 04 (Synthetic),Preventive Care,Supplier D,8
+PO00394,STR004,DR007,SUP002,2026-08-12,2026-08-19,2026-08-19,110,110,Received,7,1,572.00,Northpoint Pharmacy,Medicine 07 (Synthetic),Wellness,Supplier B,7
+PO00395,STR005,DR004,SUP004,2026-08-09,2026-08-17,2026-08-19,130,130,Received,10,0,975.00,Southgate Pharmacy,Medicine 04 (Synthetic),Preventive Care,Supplier D,8
+PO00396,STR001,DR014,SUP004,2026-08-11,2026-08-19,2026-08-20,150,150,Received,9,0,3600.00,Central Pharmacy,Medicine 14 (Synthetic),Preventive Care,Supplier D,8
+PO00397,STR004,DR011,SUP001,2026-08-09,2026-08-15,2026-08-20,90,90,Received,11,0,738.00,Northpoint Pharmacy,Medicine 11 (Synthetic),Routine Care,Supplier A,6
+PO00398,STR005,DR011,SUP001,2026-08-16,2026-08-22,2026-08-22,150,150,Received,6,1,1230.00,Southgate Pharmacy,Medicine 11 (Synthetic),Routine Care,Supplier A,6
+PO00399,STR005,DR005,SUP005,2026-08-12,2026-08-21,2026-08-26,120,120,Received,14,0,852.00,Southgate Pharmacy,Medicine 05 (Synthetic),Specialty,Supplier E,9
+PO00400,STR003,DR014,SUP004,2026-08-16,2026-08-24,2026-08-27,90,90,Received,11,0,2160.00,Eastside Pharmacy,Medicine 14 (Synthetic),Preventive Care,Supplier D,8
+PO00401,STR005,DR010,SUP005,2026-08-19,2026-08-28,2026-08-31,100,100,Received,12,0,1010.00,Southgate Pharmacy,Medicine 10 (Synthetic),Specialty,Supplier E,9
+PO00402,STR001,DR002,SUP002,2026-08-23,2026-09-05,,40,0,Pending,,,340.00,Central Pharmacy,Medicine 02 (Synthetic),Wellness,Supplier B,7
+PO00403,STR002,DR004,SUP004,2026-08-24,2026-09-07,,80,0,Pending,,,600.00,Riverside Pharmacy,Medicine 04 (Synthetic),Preventive Care,Supplier D,8
+PO00404,STR003,DR006,SUP001,2026-08-25,2026-09-06,,120,0,Pending,,,1476.00,Eastside Pharmacy,Medicine 06 (Synthetic),Routine Care,Supplier A,6
+PO00405,STR004,DR008,SUP003,2026-08-26,2026-09-06,,160,0,Pending,,,1520.00,Northpoint Pharmacy,Medicine 08 (Synthetic),Seasonal,Supplier C,5
+PO00406,STR005,DR010,SUP005,2026-08-27,2026-09-11,,40,0,Pending,,,404.00,Southgate Pharmacy,Medicine 10 (Synthetic),Specialty,Supplier E,9
+PO00407,STR001,DR012,SUP002,2026-08-28,2026-09-10,,80,0,Pending,,,1096.00,Central Pharmacy,Medicine 12 (Synthetic),Wellness,Supplier B,7
+PO00408,STR002,DR014,SUP004,2026-08-29,2026-09-12,,120,0,Pending,,,2880.00,Riverside Pharmacy,Medicine 14 (Synthetic),Preventive Care,Supplier D,8
+PO00409,STR003,DR001,SUP001,2026-08-23,2026-09-04,,160,0,Pending,,,896.00,Eastside Pharmacy,Medicine 01 (Synthetic),Routine Care,Supplier A,6
+PO00410,STR004,DR003,SUP003,2026-08-24,2026-09-04,,40,0,Pending,,,260.00,Northpoint Pharmacy,Medicine 03 (Synthetic),Seasonal,Supplier C,5
+PO00411,STR005,DR005,SUP005,2026-08-25,2026-09-09,,80,0,Pending,,,568.00,Southgate Pharmacy,Medicine 05 (Synthetic),Specialty,Supplier E,9

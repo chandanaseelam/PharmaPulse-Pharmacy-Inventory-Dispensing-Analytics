@@ -1,0 +1,6 @@
+StoreID,StoreName,Region,StoreType
+STR001,Central Pharmacy,Central,Urban
+STR002,Riverside Pharmacy,West,Suburban
+STR003,Eastside Pharmacy,East,Urban
+STR004,Northpoint Pharmacy,North,Suburban
+STR005,Southgate Pharmacy,South,Urban

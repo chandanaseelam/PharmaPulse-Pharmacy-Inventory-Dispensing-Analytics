@@ -1,0 +1,6 @@
+SupplierID,SupplierName,TargetLeadTimeDays
+SUP001,Supplier A,6
+SUP002,Supplier B,7
+SUP003,Supplier C,5
+SUP004,Supplier D,8
+SUP005,Supplier E,9

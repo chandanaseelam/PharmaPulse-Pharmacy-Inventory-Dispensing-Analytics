@@ -1,0 +1,82 @@
+TransactionID,DispensedAt,DispenseDate,StoreID,DrugID,UnitsDispensed,UnitSellingPriceUSD,UnitCostUSD,RevenueUSD,COGSUSD,GrossProfitUSD,StoreName,Region,DrugName,ProductCategory,YearMonth
+TXN000001,2025-06-01 16:13:00,2025-06-01,STR001,DR004,1,11.70,7.50,11.70,7.50,4.20,Central Pharmacy,Central,Medicine 04 (Synthetic),Preventive Care,2025-06
+TXN000002,2025-06-01 11:26:00,2025-06-01,STR001,DR005,2,11.50,7.10,23.00,14.20,8.80,Central Pharmacy,Central,Medicine 05 (Synthetic),Specialty,2025-06
+TXN000003,2025-06-01 18:39:00,2025-06-01,STR001,DR005,4,11.50,7.10,46.00,28.40,17.60,Central Pharmacy,Central,Medicine 05 (Synthetic),Specialty,2025-06
+TXN000004,2025-06-01 13:52:00,2025-06-01,STR001,,1,7.49,5.20,7.49,5.20,2.29,Central Pharmacy,Central,Medicine 07 (Synthetic),Wellness,2025-06
+TXN000005,2025-06-01 20:05:00,2025-06-01,STR001,DR007,1,7.49,5.20,7.49,5.20,2.29,Central Pharmacy,Central,Medicine 07 (Synthetic),Wellness,2025-06
+TXN000006,2025-06-01 15:18:00,2025-06-01,STR001,DR009,2,6.24,4.00,12.48,8.00,4.48,Central Pharmacy,Central,Medicine 09 (Synthetic),Preventive Care,2025-06
+TXN000007,2025-06-01 10:31:00,2025-06-01,STR001,DR010,1,16.36,10.10,16.36,10.10,6.26,Central Pharmacy,Central,Medicine 10 (Synthetic),Specialty,2025-06
+TXN000008,2025-06-01 17:44:00,2025-06-01,STR001,DR013,1,16.35,10.90,16.35,10.90,5.45,Central Pharmacy,Central,Medicine 13 (Synthetic),Seasonal,2025-06
+TXN000009,2025-06-01 12:57:00,2025-06-01,STR001,DR013,2,16.35,10.90,32.70,21.80,10.90,Central Pharmacy,Central,Medicine 13 (Synthetic),Seasonal,2025-06
+TXN000010,2025-06-01 19:10:00,2025-06-01,STR001,DR013,1,16.35,10.90,bad_value,10.90,5.45,Central Pharmacy,Central,Medicine 13 (Synthetic),Seasonal,2025-06
+TXN000011,2025-06-01 14:23:00,2025-06-01,STR001,DR013,1,16.35,10.90,16.35,10.90,5.45,Central Pharmacy,Central,Medicine 13 (Synthetic),Seasonal,2025-06
+TXN000012,2025-06-01 09:36:00,2025-06-01,STR001,DR013,1,16.35,10.90,16.35,10.90,5.45,Central Pharmacy,Central,Medicine 13 (Synthetic),Seasonal,2025-06
+TXN000013,2025-06-01 16:49:00,2025-06-01,STR001,DR014,1,37.44,24.00,37.44,24.00,13.44,Central Pharmacy,Central,Medicine 14 (Synthetic),Preventive Care,2025-06
+TXN000014,2025-06-01 11:02:00,2025-06-01,STR001,DR015,2,7.61,4.70,15.22,9.40,5.82,Central Pharmacy,Central,Medicine 15 (Synthetic),Specialty,2025-06
+TXN000015,2025-06-01 18:15:00,2025-06-01,STR002,DR001,4,7.73,5.60,30.92,22.40,8.52,Riverside Pharmacy,West,Medicine 01 (Synthetic),Routine Care,2025-06
+TXN000016,2025-06-01 13:28:00,2025-06-01,STR002,DR002,1,12.24,8.50,12.24,8.50,3.74,Riverside Pharmacy,West,Medicine 02 (Synthetic),Wellness,2025-06
+TXN000017,2025-06-01 20:41:00,2025-06-01,STR002,DR006,2,16.97,12.30,33.94,24.60,9.34,Riverside Pharmacy,West,Medicine 06 (Synthetic),Routine Care,2025-06
+TXN000018,2025-06-01 15:54:00,2025-06-01,STR002,DR009,1,6.24,4.00,6.24,4.00,2.24,Riverside Pharmacy,West,Medicine 09 (Synthetic),Preventive Care,2025-06
+TXN000019,2025-06-01 10:07:00,2025-06-01,STR999,DR009,1,6.24,4.00,6.24,4.00,2.24,Riverside Pharmacy,West,Medicine 09 (Synthetic),Preventive Care,2025-06
+TXN000020,2025-06-01 17:20:00,2025-06-01,STR002,DR012,2,19.73,13.70,39.46,27.40,12.06,Riverside Pharmacy,West,Medicine 12 (Synthetic),Wellness,2025-06
+TXN000021,2025-06-01 12:33:00,2025-06-01,STR003,DR001,4,7.73,5.60,30.92,22.40,8.52,Eastside Pharmacy,East,Medicine 01 (Synthetic),Routine Care,2025-06
+TXN000022,2025-06-01 19:46:00,2025-06-01,STR003,DR001,1,7.73,5.60,7.73,5.60,2.13,Eastside Pharmacy,East,Medicine 01 (Synthetic),Routine Care,2025-06
+TXN000023,2025-06-01 14:59:00,2025-06-01,STR003,DR001,1,7.73,5.60,7.73,5.60,2.13,Eastside Pharmacy,East,Medicine 01 (Synthetic),Routine Care,2025-06
+TXN000024,2025-06-01 09:12:00,2025-06-01,STR003,DR001,-2,7.73,5.60,7.73,5.60,2.13,Eastside Pharmacy,East,Medicine 01 (Synthetic),Routine Care,2025-06
+TXN000025,2025-06-01 16:25:00,2025-06-01,STR003,DR002,3,12.24,8.50,36.72,25.50,11.22,Eastside Pharmacy,East,Medicine 02 (Synthetic),Wellness,2025-06
+TXN000026,2025-06-01 11:38:00,2025-06-01,STR003,DR002,1,12.24,8.50,12.24,8.50,3.74,Eastside Pharmacy,East,Medicine 02 (Synthetic),Wellness,2025-06
+TXN000027,2025-06-01 18:51:00,2025-06-01,STR003,DR002,1,12.24,8.50,12.24,8.50,3.74,Eastside Pharmacy,East,Medicine 02 (Synthetic),Wellness,2025-06
+TXN000028,2025-06-01 13:04:00,2025-06-01,STR003,DR005,3,11.50,7.10,34.50,21.30,13.20,Eastside Pharmacy,East,Medicine 05 (Synthetic),Specialty,2025-06
+TXN000029,2025-06-01 20:17:00,2025-06-01,STR003,DR006,1,16.97,12.30,16.97,12.30,4.67,Eastside Pharmacy,East,Medicine 06 (Synthetic),Routine Care,2025-06
+TXN000030,2025-06-01 15:30:00,2025-06-01,STR003,DR009,3,6.24,4.00,18.72,12.00,6.72,Eastside Pharmacy,East,Medicine 09 (Synthetic),Preventive Care,2025-06
+TXN000031,2025-06-01 10:43:00,2025-06-01,STR003,DR011,3,11.32,8.20,33.96,24.60,9.36,Eastside Pharmacy,East,Medicine 11 (Synthetic),Routine Care,2025-06
+TXN000032,2025-06-01 17:56:00,2025-06-01,STR003,DR014,3,37.44,24.00,112.32,72.00,40.32,Eastside Pharmacy,East,Medicine 14 (Synthetic),Preventive Care,2025-06
+TXN000033,2025-06-01 12:09:00,2025-06-01,STR003,DR015,5,7.61,4.70,38.05,23.50,14.55,Eastside Pharmacy,East,Medicine 15 (Synthetic),Specialty,2025-06
+TXN000034,2025-06-01 19:22:00,2025-06-01,STR003,DR015,1,7.61,4.70,7.61,4.70,2.91,Eastside Pharmacy,East,Medicine 15 (Synthetic),Specialty,2025-06
+TXN000035,2025-06-01 14:35:00,2025-06-01,STR004,DR003,3,9.75,6.50,29.25,19.50,9.75,Northpoint Pharmacy,North,Medicine 03 (Synthetic),Seasonal,2025-06
+TXN000036,2025-06-01 09:48:00,2025-06-01,STR004,DR003,1,9.75,6.50,9.75,6.50,3.25,Northpoint Pharmacy,North,Medicine 03 (Synthetic),Seasonal,2025-06
+TXN000037,2025-06-01 16:01:00,2025-06-01,STR004,DR006,1,16.97,12.30,16.97,12.30,4.67,Northpoint Pharmacy,North,Medicine 06 (Synthetic),Routine Care,2025-06
+TXN000038,2025-06-01 11:14:00,2025-06-01,STR004,DR006,2,16.97,12.30,33.94,24.60,9.34,Northpoint Pharmacy,North,Medicine 06 (Synthetic),Routine Care,2025-06
+TXN000039,2025-06-01 18:27:00,2025-06-01,STR004,DR008,1,14.25,9.50,14.25,9.50,4.75,Northpoint Pharmacy,North,Medicine 08 (Synthetic),Seasonal,2025-06
+TXN000040,2025-06-01 13:40:00,2025-06-01,STR004,DR009,1,6.24,4.00,6.24,4.00,2.24,Northpoint Pharmacy,North,Medicine 09 (Synthetic),Preventive Care,2025-06
+TXN000041,2025-06-01 20:53:00,2025-06-01,STR004,DR009,3,6.24,4.00,18.72,12.00,6.72,Northpoint Pharmacy,North,Medicine 09 (Synthetic),Preventive Care,2025-06
+TXN000042,2025-06-01 15:06:00,2025-06-01,STR004,DR010,3,16.36,10.10,49.08,30.30,18.78,Northpoint Pharmacy,North,Medicine 10 (Synthetic),Specialty,2025-06
+TXN000043,2025-06-01 10:19:00,2025-06-01,STR004,DR011,1,11.32,8.20,11.32,8.20,3.12,Northpoint Pharmacy,North,Medicine 11 (Synthetic),Routine Care,2025-06
+TXN000044,2025-06-01 17:32:00,2025-06-01,STR004,DR012,1,19.73,13.70,19.73,13.70,6.03,Northpoint Pharmacy,North,Medicine 12 (Synthetic),Wellness,2025-06
+TXN000045,2025-06-01 12:45:00,2025-06-01,STR005,DR001,1,7.73,5.60,7.73,5.60,2.13,Southgate Pharmacy,South,Medicine 01 (Synthetic),Routine Care,2025-06
+TXN000046,2025-06-01 19:58:00,2025-06-01,STR005,DR003,3,9.75,6.50,29.25,19.50,9.75,Southgate Pharmacy,South,Medicine 03 (Synthetic),Seasonal,2025-06
+TXN000047,2025-06-01 14:11:00,2025-06-01,STR005,DR003,3,9.75,6.50,29.25,19.50,9.75,Southgate Pharmacy,South,Medicine 03 (Synthetic),Seasonal,2025-06
+TXN000048,2025-06-01 09:24:00,2025-06-01,STR005,DR005,1,11.50,7.10,11.50,7.10,4.40,Southgate Pharmacy,South,Medicine 05 (Synthetic),Specialty,2025-06
+TXN000049,2025-06-01 16:37:00,2025-06-01,STR005,DR009,1,6.24,4.00,6.24,4.00,2.24,Southgate Pharmacy,South,Medicine 09 (Synthetic),Preventive Care,2025-06
+TXN000050,2025-06-01 11:50:00,2025-06-01,STR005,DR009,2,6.24,4.00,12.48,8.00,4.48,Southgate Pharmacy,South,Medicine 09 (Synthetic),Preventive Care,2025-06
+TXN000051,2025-06-01 18:03:00,2025-06-01,STR005,DR015,1,7.61,4.70,7.61,4.70,2.91,Southgate Pharmacy,South,Medicine 15 (Synthetic),Specialty,2025-06
+TXN000052,2025-06-02 13:16:00,2025-06-02,STR001,DR003,4,9.75,6.50,39.00,26.00,13.00,Central Pharmacy,Central,Medicine 03 (Synthetic),Seasonal,2025-06
+TXN000053,2025-06-02 20:29:00,2025-06-02,STR001,DR005,5,11.50,7.10,57.50,35.50,22.00,Central Pharmacy,Central,Medicine 05 (Synthetic),Specialty,2025-06
+TXN000054,2025-06-02 15:42:00,2025-06-02,STR001,DR006,3,16.97,12.30,50.91,36.90,14.01,Central Pharmacy,Central,Medicine 06 (Synthetic),Routine Care,2025-06
+TXN000055,2025-06-02 10:55:00,2025-06-02,STR001,DR008,1,14.25,9.50,14.25,9.50,4.75,Central Pharmacy,Central,Medicine 08 (Synthetic),Seasonal,2025-06
+TXN000056,2025-06-02 17:08:00,2025-06-02,STR001,DR008,1,14.25,9.50,14.25,9.50,4.75,Central Pharmacy,Central,Medicine 08 (Synthetic),Seasonal,2025-06
+TXN000057,2025-06-02 12:21:00,2025-06-02,STR001,DR008,1,14.25,9.50,14.25,9.50,4.75,Central Pharmacy,Central,Medicine 08 (Synthetic),Seasonal,2025-06
+TXN000058,2025-06-02 19:34:00,2025-06-02,STR001,DR009,3,6.24,4.00,18.72,12.00,6.72,Central Pharmacy,Central,Medicine 09 (Synthetic),Preventive Care,2025-06
+TXN000059,2025-06-02 14:47:00,2025-06-02,STR001,DR009,1,6.24,4.00,6.24,4.00,2.24,Central Pharmacy,Central,Medicine 09 (Synthetic),Preventive Care,2025-06
+TXN000060,2025-06-02 09:00:00,2025-06-02,STR001,DR010,1,16.36,10.10,16.36,10.10,6.26,Central Pharmacy,Central,Medicine 10 (Synthetic),Specialty,2025-06
+TXN000061,2025-06-02 16:13:00,2025-06-02,STR001,DR010,2,16.36,10.10,32.72,20.20,12.52,Central Pharmacy,Central,Medicine 10 (Synthetic),Specialty,2025-06
+TXN000062,2025-06-02 11:26:00,2025-06-02,STR001,DR011,2,11.32,8.20,22.64,16.40,6.24,Central Pharmacy,Central,Medicine 11 (Synthetic),Routine Care,2025-06
+TXN000063,2025-06-02 18:39:00,2025-06-02,STR001,DR011,2,11.32,8.20,22.64,16.40,6.24,Central Pharmacy,Central,Medicine 11 (Synthetic),Routine Care,2025-06
+TXN000064,2025-06-02 13:52:00,2025-06-02,STR001,DR013,1,16.35,10.90,16.35,10.90,5.45,Central Pharmacy,Central,Medicine 13 (Synthetic),Seasonal,2025-06
+TXN000065,2025-06-02 20:05:00,2025-06-02,STR001,DR015,1,7.61,4.70,7.61,4.70,2.91,Central Pharmacy,Central,Medicine 15 (Synthetic),Specialty,2025-06
+TXN000066,2025-06-02 15:18:00,2025-06-02,STR002,DR007,1,7.49,5.20,7.49,5.20,2.29,Riverside Pharmacy,West,Medicine 07 (Synthetic),Wellness,2025-06
+TXN000067,2025-06-02 10:31:00,2025-06-02,STR002,DR007,2,7.49,5.20,14.98,10.40,4.58,Riverside Pharmacy,West,Medicine 07 (Synthetic),Wellness,2025-06
+TXN000068,2025-06-02 17:44:00,2025-06-02,STR002,DR007,1,7.49,5.20,7.49,5.20,2.29,Riverside Pharmacy,West,Medicine 07 (Synthetic),Wellness,2025-06
+TXN000069,2025-06-02 12:57:00,2025-06-02,STR002,DR010,1,16.36,10.10,16.36,10.10,6.26,Riverside Pharmacy,West,Medicine 10 (Synthetic),Specialty,2025-06
+TXN000070,2025-06-02 19:10:00,2025-06-02,STR002,DR011,1,11.32,8.20,11.32,8.20,3.12,Riverside Pharmacy,West,Medicine 11 (Synthetic),Routine Care,2025-06
+TXN000071,2025-06-02 14:23:00,2025-06-02,STR002,DR013,1,16.35,10.90,16.35,10.90,5.45,Riverside Pharmacy,West,Medicine 13 (Synthetic),Seasonal,2025-06
+TXN000072,2025-06-02 09:36:00,2025-06-02,STR002,DR014,1,37.44,24.00,37.44,24.00,13.44,Riverside Pharmacy,West,Medicine 14 (Synthetic),Preventive Care,2025-06
+TXN000073,2025-06-02 16:49:00,2025-06-02,STR003,DR002,1,12.24,8.50,12.24,8.50,3.74,Eastside Pharmacy,East,Medicine 02 (Synthetic),Wellness,2025-06
+TXN000074,2025-06-02 11:02:00,2025-06-02,STR003,DR003,3,9.75,6.50,29.25,19.50,9.75,Eastside Pharmacy,East,Medicine 03 (Synthetic),Seasonal,2025-06
+TXN000075,2025-06-02 18:15:00,2025-06-02,STR003,DR005,2,11.50,7.10,23.00,14.20,8.80,Eastside Pharmacy,East,Medicine 05 (Synthetic),Specialty,2025-06
+TXN000076,2025-06-02 13:28:00,2025-06-02,STR003,DR006,3,16.97,12.30,50.91,36.90,14.01,Eastside Pharmacy,East,Medicine 06 (Synthetic),Routine Care,2025-06
+TXN000077,2025-06-02 20:41:00,2025-06-02,STR003,DR011,1,11.32,8.20,11.32,8.20,3.12,Eastside Pharmacy,East,Medicine 11 (Synthetic),Routine Care,2025-06
+TXN000078,2025-06-02 15:54:00,2025-06-02,STR003,DR013,2,16.35,10.90,32.70,21.80,10.90,Eastside Pharmacy,East,Medicine 13 (Synthetic),Seasonal,2025-06
+TXN000079,2025-06-02 10:07:00,2025-06-02,STR003,DR013,1,16.35,10.90,16.35,10.90,5.45,Eastside Pharmacy,East,Medicine 13 (Synthetic),Seasonal,2025-06
+TXN000080,2025-06-02 17:20:00,2025-06-02,STR004,DR003,3,9.75,6.50,29.25,19.50,9.75,Northpoint Pharmacy,North,Medicine 03 (Synthetic),Seasonal,2025-06
+TXN000007,2025-06-01 10:31:00,2025-06-01,STR001,DR010,1,16.36,10.10,16.36,10.10,6.26,Central Pharmacy,Central,Medicine 10 (Synthetic),Specialty,2025-06
