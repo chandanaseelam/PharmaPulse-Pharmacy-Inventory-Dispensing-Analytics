@@ -1,159 +1,160 @@
 # 💊 PharmaPulse — Pharmacy Inventory & Dispensing Analytics
 
-### 📊 End-to-End Data Analytics & Business Intelligence Project
+**An End-to-End Data Analytics Project Using Python, SQL, Tableau, and Plotly**
 
 **🛠️ Technologies:** Python | SQL | SQLite | Tableau Public | Plotly  
-**📅 Analysis Period:** June 2025 – August 2026  
+**📅 Project Period:** June 2025 – August 2026  
 **📁 Dataset:** Synthetic Pharmacy Operations Data
-
----
 
 ## 📌 About the Project
 
-PharmaPulse is an end-to-end pharmacy analytics project I developed to explore how data can support better decisions in pharmacy operations.
+PharmaPulse is a data analytics project I developed to understand how pharmacies can use data to manage their daily operations more effectively.
 
-A pharmacy manages multiple activities every day, including medicine inventory, customer transactions, sales, and supplier deliveries. When this information is spread across different datasets, it becomes difficult to identify inventory risks, understand sales performance, and monitor supplier reliability.
+Pharmacies deal with inventory, medicine dispensing, sales, and supplier deliveries every day. Keeping track of all this information can be challenging, especially when the data comes from different sources.
 
-I wanted to bring these areas together and create an analytics solution that makes the information easier to understand.
+I wanted to understand how these activities are connected and how analyzing them together could help identify potential business problems.
 
-For this project, I worked with 15 months of simulated pharmacy data. I used **Python** for data preparation and analysis, **SQL** to answer business questions, and **Tableau and Plotly** to build interactive dashboards.
+For this project, I worked with 15 months of simulated data from five pharmacy locations. I used Python to prepare and validate the datasets, SQL to answer business questions, and Tableau and Plotly to visualize the results.
 
-The project focuses on inventory management, dispensing activity, revenue performance, and supplier operations.
-
----
+My main focus was to understand sales performance, identify stock shortages, analyze medicine demand, and evaluate supplier delivery performance.
 
 ## 🚀 Live Dashboards
 
 ### 📊 Tableau Public — Sales & Dispensing Analytics
 
-**[🔗 View My Interactive Tableau Dashboards](https://public.tableau.com/app/profile/chandana.seelam/viz/PharmaPulse-PharmacySalesDispensingAnalytics/03StoreandCategoryInsights)**
+**[View My Tableau Dashboards](https://public.tableau.com/app/profile/chandana.seelam/viz/PharmaPulse-PharmacySalesDispensingAnalytics/03StoreandCategoryInsights)**
 
-**[📥 Download Tableau Workbook (.twbx)](tableau/PharmaPulse_Sales_Tableau_Window_Fixed_v2.twbx)**
+**[Download Tableau Workbook (.twbx)](tableau/PharmaPulse%20-%20Pharmacy%20Sales%20%26%20Dispensing%20Analytics.twbx)**
 
-I created and published three dashboards using Tableau Public.
+I created three dashboards in Tableau Public to explore different aspects of pharmacy sales and dispensing activity.
 
-**1. 📈 Executive Sales Overview**
+**1. Executive Sales Overview**
 
-Provides an overview of pharmacy sales performance, including total revenue, gross profit, units dispensed, transaction volume, and monthly trends.
+This dashboard provides an overall picture of pharmacy sales, including revenue, gross profit, transactions, and units dispensed. I also included monthly trends to understand how sales performance changed over time.
 
-**2. 💊 Dispensing and Demand**
+**2. Dispensing and Demand**
 
-Focuses on monthly dispensing activity, transaction patterns, and changes in medicine demand over time.
+Here, I focused on how dispensing activity and transactions varied across different months. This helped me explore medicine demand patterns in the simulated data.
 
-**3. 🏪 Store and Category Insights**
+**3. Store and Category Insights**
 
-Compares sales and gross profit across pharmacy stores and medicine categories to understand their contributions to overall performance.
+This dashboard compares pharmacy locations and product categories based on their revenue and profit contributions.
 
 ### 🌐 Interactive Pharmacy Analytics — Python & Plotly
 
-**[🚀 Launch the Live PharmaPulse Website](https://chandanaseelam.github.io/PharmaPulse-Pharmacy-Intelligence-Analytics/)**
+**[Launch the Live PharmaPulse Dashboard](https://chandanaseelam.github.io/PharmaPulse-Pharmacy-Intelligence-Analytics/)**
 
-I also developed a separate interactive HTML dashboard using Python and Plotly.
+Along with Tableau, I developed an interactive HTML dashboard using Python and Plotly.
 
-It includes three analytical views:
+It includes three views:
 
-- **📦 Inventory Overview:** Stock levels, reorder thresholds, low-stock conditions, and stockout patterns.
-- **💰 Dispensing & Revenue Analytics:** Transactions, revenue, profit, and store performance.
-- **🚚 Supply & Replenishment Risk:** Supplier delivery performance, purchasing activity, and unmet demand.
+- **📦 Inventory Overview:** Shows stock availability, reorder levels, low-stock conditions, and stockout patterns.
+- **💰 Dispensing & Revenue Analytics:** Explores transactions, sales, profit, and performance across stores.
+- **🚚 Supply & Replenishment Risk:** Looks at purchase orders, supplier deliveries, and unmet medicine demand.
 
-The application allows users to explore different stores, product categories, and time periods using interactive filters.
+I added filters so users can explore the data by store, product category, and reporting period.
 
----
+## 🎯 Business Questions I Wanted to Answer
 
-## 🎯 Business Problems I Wanted to Solve
+Before starting the analysis, I identified the main questions I wanted to investigate.
 
-I approached this project from the perspective of a Data Analyst working with a pharmacy business.
+1. Which pharmacies experience the most stock shortages?
+2. How often do medicines fall below their reorder levels?
+3. How do sales, profit, and dispensing activity change over time?
+4. Which pharmacy locations contribute the most to revenue?
+5. Are suppliers delivering orders within their expected timelines?
+6. How much medicine demand is being fulfilled?
 
-I focused on five questions:
-
-1. Which medicines and stores experience the highest stockout risk?
-2. How do revenue, profit, and dispensing activity change over time?
-3. Which medicine categories and stores contribute the most to revenue?
-4. How reliably are suppliers fulfilling purchase orders?
-5. How can inventory monitoring and replenishment decisions be improved?
-
-My goal was to move beyond individual transaction records and identify patterns that could support business decisions.
-
----
+These questions helped me decide which datasets to use, what calculations to perform, and which dashboards to develop.
 
 ## 🔄 How I Worked on the Project
 
-### 🐍 Step 1 — Data Preparation Using Python
+### 🐍 Data Preparation
 
-I worked with synthetic datasets covering medicine information, inventory records, dispensing transactions, supplier details, and purchase orders.
+I started by working with synthetic datasets containing medicine details, dispensing transactions, inventory records, supplier information, and purchase orders.
 
-Using Python, I prepared and structured the datasets, checked data quality, and validated calculations before analysis.
+Using Python, I prepared the data, checked its consistency, and validated the records before starting the analysis.
 
-### 🗄️ Step 2 — Data Analysis Using SQL
+### 🗄️ SQL Analysis
 
-I used SQL to explore the pharmacy data and answer business questions.
+I used SQL to work with the different pharmacy datasets and answer business questions.
 
-My analysis included filtering, joins, aggregations, and KPI calculations related to revenue, inventory availability, dispensing activity, and supplier performance.
+I practiced joins, filtering, aggregations, and calculations to analyze revenue, dispensing activity, inventory availability, and supplier performance.
 
-### 📐 Step 3 — Business KPI Development
+### 📐 KPI Calculations
 
-I calculated the metrics needed to understand pharmacy performance, including revenue, gross profit, gross margin, dispensed units, transaction volume, stockouts, reorder risks, and demand fulfillment.
+After preparing the data, I calculated the key metrics needed to understand pharmacy performance.
 
-### 📊 Step 4 — Dashboard Development
+These included revenue, gross profit, profit margin, dispensed units, stockout occurrences, reorder warnings, and demand fulfillment.
 
-I used Plotly to visualize inventory, sales, and supplier analytics through an interactive HTML application.
+### 📊 Dashboard Development
 
-I also developed three Tableau dashboards to present pharmacy sales and dispensing performance through KPI cards, trends, and business comparisons.
+I used Tableau Public to create dashboards for sales and dispensing analysis.
 
-### ✅ Step 5 — Validation and Publishing
+I also developed a separate Plotly application to explore inventory conditions, revenue performance, and supplier-related risks.
 
-I used Python validation scripts to check the consistency of the project data and analytical results. The project includes documentation of 21 validation checks.
+### ✅ Data Validation and Publishing
 
-Finally, I published the Tableau workbook on Tableau Public and hosted the Plotly application using GitHub Pages.
+I used Python scripts to check data consistency and validate the analytical results. The project includes 21 completed validation checks.
 
----
+Finally, I published the Tableau dashboards on Tableau Public and hosted the Plotly application using GitHub Pages.
 
-## 📈 Key Results from the Data
+## 📈 Key Results
 
 | Business Metric | Result |
-|---|---|
-| 📅 Analysis Period | June 2025 – August 2026 |
-| 🧾 Total Transactions | 27,314 |
-| 📦 Daily Inventory Records | 34,275 |
-| 💊 Units Dispensed | 49,889 |
-| 💰 Total Revenue | $661,172.04 |
-| 📈 Gross Profit | $218,493.34 |
-| 📊 Gross Profit Margin | 33.05% |
-| ⚠️ Stockout Store–Medicine–Days | 190 |
-| 🔔 Below-Reorder Store–Medicine–Days | 3,629 |
-| ✅ Demand Fulfillment Rate | 99.25% |
+|---|---:|
+| Total Transactions | 27,314 |
+| Units Dispensed | 49,889 |
+| Total Revenue | $661,172.04 |
+| Gross Profit | $218,493.34 |
+| Gross Profit Margin | 33.05% |
+| Daily Inventory Records | 34,275 |
+| Stockout Store–Medicine–Days | 190 |
+| Below-Reorder Store–Medicine–Days | 3,629 |
+| Demand Fulfillment Rate | 99.25% |
+| Supplier On-Time Delivery Rate | 53.37% |
 
-*All results represent simulated pharmacy operations.*
-
----
+All figures represent simulated pharmacy activity.
 
 ## 🔍 What I Discovered
 
-### 💰 Sales Performance
-
-The simulated pharmacy operations generated approximately **$661K in revenue**, with a gross profit margin of **33.05%**.
-
-By visualizing monthly performance, I could explore how revenue and dispensing activity varied across the analysis period.
-
 ### 📦 Inventory Availability
 
-The analysis identified **190 stockout store–medicine–days** and **3,629 below-reorder store–medicine–days**.
+One of the main things I noticed was that low-stock conditions occurred much more frequently than complete stockouts.
 
-This demonstrated the importance of monitoring medicines before they run out rather than relying only on actual stockout records.
+The analysis identified 3,629 below-reorder records compared with 190 zero-stock records.
+
+Riverside Pharmacy also had the highest stockout exposure among the five locations.
+
+This showed me why pharmacies should monitor low-stock conditions rather than waiting until medicines run out.
+
+### 💰 Sales Performance
+
+The simulated pharmacy operations generated approximately $661K in revenue, with a gross profit margin of 33.05%.
+
+Northpoint generated the highest revenue, while Riverside had relatively strong sales but also the most stockout occurrences.
+
+This helped me understand that looking at revenue alone doesn't tell the whole story about how a pharmacy is performing.
 
 ### 💊 Demand Fulfillment
 
-The modeled demand fulfillment rate was **99.25%**.
+The dataset showed that 99.25% of requested medicine units were fulfilled.
 
-Although most simulated demand was fulfilled, the remaining unmet demand provided an opportunity to investigate inventory availability and replenishment patterns.
+Although the overall fulfillment rate was high, some simulated demand remained unmet.
+
+This highlighted the importance of reviewing inventory availability alongside dispensing activity.
 
 ### 🚚 Supplier Performance
 
-I explored supplier lead times, purchase orders, and received quantities to understand how purchasing and delivery performance could affect medicine availability.
+I also analyzed purchase orders and supplier delivery timelines.
 
-These findings represent patterns in synthetic data, not measured improvements in a real pharmacy.
+The overall simulated on-time delivery rate was 53.37%.
 
----
+This suggested that supplier delivery performance was an important area to investigate when reviewing replenishment planning.
+
+These findings are based on generated data, so they represent analytical scenarios rather than actual business performance.
+
+**[Read My Detailed Business Findings & Recommendations](analysis/Business_Findings.md)**
 
 ## 🖼️ Dashboard Gallery
 
@@ -167,68 +168,110 @@ These findings represent patterns in synthetic data, not measured improvements i
 
 ### 🚚 Supply & Replenishment Risk
 
-![Supply and Replenishment Risk](dashboards/Risk_Replenishment_Preview.png)
+![Supply and Replenishment](dashboards/Risk_Replenishment_Preview.png)
 
-*These screenshots represent the Plotly dashboards. The native Tableau dashboards are available through the Tableau Public link above.*
+These screenshots are from the Plotly application. My Tableau dashboards are available through the Tableau Public link above.
 
----
+## 🐍 Python Business Analysis
 
-## 🛠️ Tools & Technologies
+In addition to the interactive dashboards, I used Python to create separate charts for some of the business findings.
 
-| Tool | How I Used It |
+These charts cover stockout exposure across stores, inventory warning conditions, supplier performance, revenue comparisons, and monthly trends.
+
+The chart-generation script is included in the repository so the analysis can be reproduced using the project data.
+
+**[View Python Analysis Script](scripts/create_business_findings_charts.py)**
+
+**[View Google Colab Notebook](notebooks/PharmaPulse_Business_Findings_Colab.ipynb)**
+
+## 🛠️ Tools I Used
+
+| Tool | Purpose |
 |---|---|
-| 🐍 Python | Data generation, preparation, validation, and analysis |
-| 🗄️ SQL | Business queries, joins, and aggregations |
-| 💾 SQLite | Structured data storage and analysis |
-| 📊 Tableau Public | Interactive sales and dispensing dashboards |
-| 📈 Plotly | Interactive pharmacy analytics website |
-| 🐙 GitHub | Source code and documentation |
-| 🌐 GitHub Pages | Hosting the HTML dashboard |
+| Python | Data preparation, validation, and analysis |
+| Pandas | Data manipulation and calculations |
+| SQL | Business queries and aggregations |
+| SQLite | Storing and querying related datasets |
+| Tableau Public | Sales and dispensing dashboards |
+| Plotly | Interactive pharmacy dashboards |
+| Matplotlib | Business findings visualizations |
+| Google Colab | Running and exploring Python analysis |
+| GitHub | Project documentation and source code |
+| GitHub Pages | Hosting the interactive dashboard |
 
----
+## 📁 Repository Structure
 
-## 📁 Project Structure
-
-- `analysis/` — KPI results, business findings, and validation reports
-- `dashboards/` — Dashboard previews and screenshots
+- `analysis/` — Business findings, KPI outputs, and analytical charts
+- `dashboards/` — Interactive HTML dashboard and preview images
 - `data/` — Synthetic pharmacy datasets
-- `docs/` — Project documentation and data dictionary
-- `scripts/` — Python generation, analysis, and validation scripts
-- `sql/` — SQL analytical queries
-- `tableau/` — Tableau workbook and supporting documentation
-- `index.html` — Interactive Plotly application
-- `pharmacy_analytics.sqlite` — SQLite analysis database
+- `notebooks/` — Google Colab analysis notebook
+- `scripts/` — Python scripts for data generation, validation, and analysis
+- `sql/` — SQL analysis queries
+- `tableau/` — Tableau documentation, if included
+- `PharmaPulse - Pharmacy Sales & Dispensing Analytics.twbx` — Tableau workbook
+- `pharmacy_analytics.sqlite` — SQLite database
+- `index.html` — Interactive Plotly website
+- `README.md` — Project overview and documentation
 
----
+## ▶️ Running the Project
 
-## ▶️ How to Run the Project
+To reproduce the analysis, first download or clone this repository.
 
-Clone or download the GitHub repository.
+**Validate the data:**
 
-**1. Validate the data**
+```bash
+python3 scripts/validate_project.py
+```
 
-`python3 scripts/validate_project.py`
+**Run the business analysis:**
 
-**2. Run the analysis**
+```bash
+python3 scripts/analyze.py
+```
 
-`python3 scripts/analyze.py`
+**Generate the business findings charts:**
 
-**3. Install Plotly**
+```bash
+python3 -m pip install pandas matplotlib
+python3 scripts/create_business_findings_charts.py
+```
 
-`python3 -m pip install plotly`
+**Rebuild the interactive dashboard:**
 
-**4. Rebuild the interactive dashboard**
+```bash
+python3 -m pip install plotly
+python3 scripts/build_dashboard.py
+```
 
-`python3 scripts/build_dashboard.py`
+The existing Plotly dashboard can also be explored directly through `index.html`.
 
-You can also open `index.html` directly in your browser.
-
-To explore the Tableau dashboards, download the `.twbx` workbook and open it in Tableau Public Desktop.
-
----
+For Tableau, download the packaged workbook and open it using Tableau Public Desktop.
 
 ## 🎓 What I Learned
 
-This project helped me strengthen my understanding of the complete data analytics workflow, from preparing raw data to communicating business insights.
+Working on PharmaPulse helped me understand how different parts of a data analytics project come together.
 
-I gained practical experience working with related datasets, validating data, writing analytical SQL queries, calculating KPIs, and creating dashboards using Tableau and Python
+I gained experience preparing datasets, validating data, writing SQL queries, calculating business metrics, and presenting results through interactive dashboards.
+
+The most valuable part was learning how to connect the analysis with actual business questions.
+
+For example, Riverside had relatively strong revenue but also the highest stockout exposure. If I had only looked at sales performance, I would have missed that inventory risk.
+
+This project helped me understand that data analysis isn't just about calculating numbers or creating charts. It's about finding useful patterns, explaining why they matter, and identifying where a business could investigate further.
+
+## 🔮 Future Improvements
+
+There are a few areas I would like to explore as I continue developing this project:
+
+- Adding inventory and supplier analysis to Tableau
+- Exploring demand forecasting using Python
+- Evaluating different reorder-level and inventory-buffer scenarios
+- Expanding the SQL analysis to answer more detailed operational questions
+
+## 📝 Data Disclaimer
+
+All data used in PharmaPulse is synthetic and was created for educational and portfolio purposes.
+
+The project does not contain real patient or pharmacy records. Financial results, inventory metrics, and supplier performance represent simulated business scenarios.
+
+The findings demonstrate how analytics can support decision-making, but they do not establish proven improvements in real pharmacy operations.
